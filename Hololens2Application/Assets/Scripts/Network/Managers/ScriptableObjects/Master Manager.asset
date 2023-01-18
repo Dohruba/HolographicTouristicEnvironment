@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23838b8d7fe78e94985ace068dd65cb0, type: 3}
+  m_Name: Master Manager
+  m_EditorClassIdentifier: 
+  _gameSettings: {fileID: 11400000, guid: a64d0ed935a3fd4458f602400d42371c, type: 2}
+  _networkedPrefabs:
+  - prefab: {fileID: 7374975410708307996, guid: d8259d0d7db487c43a6ecd2d1c02e05c, type: 3}
+    Path: Temp/Sphere

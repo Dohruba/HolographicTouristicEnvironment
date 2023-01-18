@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CreateOrJoinRoomCanvas : MonoBehaviour
+{
+    [SerializeField]
+    private CreateRoomMenu _createRoomMenu;
+    [SerializeField]
+    private RoomListingsMenu _roomListingsMenu;
+
+    private RoomsCanvases _roomsCanvases;
+
+    public void Initialize(RoomsCanvases canvases)
+    {
+        _roomsCanvases = canvases;
+        _createRoomMenu.Initialize(canvases);
+        _roomListingsMenu.FirstInitialize(canvases);
+    }
+
+    public void Show()
+    {
+        gameObject.SetActive(true);
+    }
+    public void Hide()
+    {
+        gameObject.SetActive(false);
+    }
+}
