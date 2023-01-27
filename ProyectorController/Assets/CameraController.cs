@@ -10,6 +10,8 @@ public class CameraController : MonoBehaviour
     [SerializeField]
     private Camera frontCamera;
     [SerializeField]
+    private Camera sideCamera;
+    [SerializeField]
     private bool isCameraFound = false;
 
     private void Start()
@@ -31,7 +33,8 @@ public class CameraController : MonoBehaviour
             try
             {
                 frontCamera = GameObject.FindGameObjectWithTag("FrontCamera").GetComponent<Camera>();
-                if (frontCamera != null) isCameraFound = true;
+                sideCamera = GameObject.FindGameObjectWithTag("SideCamera").GetComponent<Camera>();
+                if (frontCamera != null && sideCamera!= null) isCameraFound = true;
             }catch(Exception e)
             {
 
@@ -39,7 +42,8 @@ public class CameraController : MonoBehaviour
         }
         if (isCameraFound)
         {
-            frontCamera.fieldOfView = _InfoReciever.GetComponent<InformationSender>().FoV;
+            frontCamera.fieldOfView = _InfoReciever.GetComponent<InformationSender>().FoVDisplay1;
+            sideCamera.fieldOfView = _InfoReciever.GetComponent<InformationSender>().FoVDisplay2;
         }
     }
 }

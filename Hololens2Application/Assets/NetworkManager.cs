@@ -8,15 +8,17 @@ public class NetworkManager : MonoBehaviour
 {
     public bool Send = false;
     public GameObject _InformationSender;
-    public float _FoVMessage = 0;
+    public string _FoVMessage;
     [SerializeField]
-    private ProyectionPlaceholder _ProyectionPlaceholder;
+    private ProyectionPlaceholder _ProyectionPlaceholder1;
+    [SerializeField]
+    private ProyectionPlaceholder _ProyectionPlaceholder2;
     void Update()
     {
         
         try
         {
-            _FoVMessage = _ProyectionPlaceholder.getFoV();
+            _FoVMessage = _ProyectionPlaceholder1.getFoV().ToString() + " " + _ProyectionPlaceholder2.getFoV().ToString();
             PhotonView.Get(_InformationSender).RPC("SendFoV", RpcTarget.All, _FoVMessage.ToString());
         }
         catch (Exception e)

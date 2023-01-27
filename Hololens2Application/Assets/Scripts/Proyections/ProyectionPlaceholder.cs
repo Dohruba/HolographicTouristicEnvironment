@@ -20,8 +20,10 @@ public class ProyectionPlaceholder : MonoBehaviour
     private GameObject surface;
     [SerializeField]
     private Vector2 proyectionDimensions;
-    private Vector3 surfaceTop;
-    private Vector3 surfaceBottom;
+    [SerializeField] 
+    private Vector3 surfaceRight;
+    [SerializeField]
+    private Vector3 surfaceLeft;
 
     [Space]
     [Header("Values")]
@@ -39,15 +41,23 @@ public class ProyectionPlaceholder : MonoBehaviour
     private void Start()
     {
         camera = GameObject.FindGameObjectWithTag("MainCamera");
-        surfaceTop = surface.transform.position + new Vector3(0, proyectionDimensions.y / 2,0);
-        surfaceBottom = surface.transform.position - new Vector3(0, proyectionDimensions.y / 2,0);
+        float offset = proyectionDimensions.x/2;
+        if (isLookingForward)
+        {
+            surfaceRight = surface.transform.position + new Vector3(offset, 0, 0);
+            surfaceLeft = surface.transform.position - new Vector3(offset, 0, 0);
+        }
+        else
+        { 
+            surfaceRight = surface.transform.position - new Vector3(0, 0, offset);
+            surfaceLeft = surface.transform.position + new Vector3(0, 0, offset);
+        }
+        
     }
     private void Update()
     {
         cameraPosition = camera.transform.position;
-        FoV = Vector3.Angle((surfaceTop-cameraPosition),(surfaceBottom-cameraPosition));
-        distanceCameraToProyection = Mathf.Abs(cameraPosition.z - surface.transform.position.z);
-
+        FoV = Vector3.Angle((surfaceRight-cameraPosition),(surfaceLeft-cameraPosition));
     }
 }
 
