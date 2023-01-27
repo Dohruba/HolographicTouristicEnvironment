@@ -12,7 +12,7 @@ public class InformationSender : MonoBehaviourPun
     [PunRPC]
     public void SendFoV(string foVAngle)
     {
-        Debug.Log(string.Format("FoV: {0}", foVAngle));
+        //Debug.Log(string.Format("FoV: {0}", foVAngle));
         FoV = float.Parse(foVAngle);
     }
 }

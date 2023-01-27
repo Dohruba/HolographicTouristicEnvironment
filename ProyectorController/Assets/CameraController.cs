@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,8 +17,14 @@ public class CameraController : MonoBehaviour
     {
         if (!isCameraFound)
         {
-            frontCamera = GameObject.FindGameObjectWithTag("FrontCamera").GetComponent<Camera>();
-            if (frontCamera != null) isCameraFound = true;
+            try
+            {
+                frontCamera = GameObject.FindGameObjectWithTag("FrontCamera").GetComponent<Camera>();
+                if (frontCamera != null) isCameraFound = true;
+            }catch(Exception e)
+            {
+
+            }
         }
         if (isCameraFound)
         {
