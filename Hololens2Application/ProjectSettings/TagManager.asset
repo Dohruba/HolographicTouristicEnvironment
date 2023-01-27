@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - MiniRoomConstraint
+  - CameraManager
   layers:
   - Default
   - TransparentFX

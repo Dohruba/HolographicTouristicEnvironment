@@ -30,5 +30,11 @@ public class SimpleObjectMovement : MonoBehaviourPun//, IPunObservable
         }
     }
 
+    [PunRPC]
+    public void TestSendInfo(string a)
+    {
+        Debug.Log(string.Format("FoV: {0}",a));
+        _speed += 1;
+    }
 
 }
