@@ -8,6 +8,7 @@ public class NetworkManager : MonoBehaviour
 {
     public bool Send = false;
     public GameObject _InformationSender;
+    public GameObject _Manager;
     public string _FoVMessage;
     [SerializeField]
     private ProyectionPlaceholder _ProyectionPlaceholder1;
@@ -25,5 +26,10 @@ public class NetworkManager : MonoBehaviour
         {
 
         }
+    }
+
+    public void OnClickChangeScene(string city)
+    {
+        PhotonView.Get(_Manager).RPC("SelectScene",RpcTarget.All, city.ToString());
     }
 }

@@ -42,6 +42,7 @@ MonoBehaviour:
   - RPC_ChangeReadyState
   - TestSendInfo
   - SendFoV
+  - SelectScene
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

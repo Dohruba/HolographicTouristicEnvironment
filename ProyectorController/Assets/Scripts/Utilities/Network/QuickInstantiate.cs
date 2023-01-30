@@ -13,5 +13,6 @@ public class QuickInstantiate : MonoBehaviour
             transform.position.z);
 
         MasterManager.NetworkInstantiate(_prefab, pos, Quaternion.identity );
+        
     }
 }
