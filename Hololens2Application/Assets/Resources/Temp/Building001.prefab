@@ -26,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7023572791867140704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3851, y: -0.127, z: 0.365}
-  m_LocalScale: {x: 5.66, y: 5.66, z: 5.66}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 5098407047387096600}
   - {fileID: 2258277382599623088}
@@ -150,6 +150,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2845698208026289481, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1785432452398501032}
     - target: {fileID: 2845698208026289482, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
       propertyPath: m_Name
       value: InfoButton
@@ -207,5 +211,10 @@ PrefabInstance:
 --- !u!4 &5098407047387096600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2845698208026289522, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+  m_PrefabInstance: {fileID: 7042747197544481642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1785432452398501032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8753867480988815298, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
   m_PrefabInstance: {fileID: 7042747197544481642}
   m_PrefabAsset: {fileID: 0}
