@@ -8,11 +8,20 @@ public class QuickInstantiate : MonoBehaviour
     private GameObject _prefab;
     private void Awake()
     {
-        Vector3 pos = new Vector3(transform.position.x,
-            transform.position.y, 
-            transform.position.z);
-
-        MasterManager.NetworkInstantiate(_prefab, pos, Quaternion.identity );
+        Instantiate();
         
+    }
+    private void OnEnable()
+    {
+        Instantiate();
+    }
+
+    private void Instantiate()
+    {
+        Vector3 pos = new Vector3(transform.position.x,
+        transform.position.y,
+        transform.position.z);
+
+        MasterManager.NetworkInstantiate(_prefab, pos, Quaternion.identity);
     }
 }

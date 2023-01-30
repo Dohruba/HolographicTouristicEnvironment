@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3372995700451877814}
   - component: {fileID: 3372995700451877815}
   m_Layer: 0
-  m_Name: Building003
+  m_Name: Building006
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,7 +82,7 @@ PrefabInstance:
     - target: {fileID: 3250541041167301781, guid: e25e1320327da964b9a292ee60da5540, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f61d9d7eed3314747b5381af0569c4e0, type: 2}
+      objectReference: {fileID: 2100000, guid: 24bb588afa6580d439ccde33f0f9efd7, type: 2}
     - target: {fileID: 5258293136360310493, guid: e25e1320327da964b9a292ee60da5540, type: 3}
       propertyPath: m_RootOrder
       value: 0

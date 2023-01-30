@@ -38,6 +38,11 @@ public class MasterManager : SingletonScriptableObject<MasterManager>
         return null;
     }
 
+    public static void NetworkDestroy(PhotonView photonView)
+    {
+        PhotonNetwork.Destroy(photonView);
+    }
+
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     public static void PopulateNetworkedPrefab()
     {

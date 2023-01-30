@@ -6,6 +6,8 @@ TagManager:
   tags:
   - MiniRoomConstraint
   - CameraManager
+  - Building
+  - Miniroom
   layers:
   - Default
   - TransparentFX

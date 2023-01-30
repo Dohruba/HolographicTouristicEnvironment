@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7023572791867140710}
   - component: {fileID: 7023572791867140711}
   m_Layer: 0
-  m_Name: Building001
+  m_Name: Building004
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,6 +80,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7023572791867140709}
     m_Modifications:
+    - target: {fileID: 2100283065891438227, guid: 15157e7dae8de1b42b2ab20ba28dfb39, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a14ddc8b84cd9e04fb20bf75390ddd7f, type: 2}
     - target: {fileID: 2100283065891438237, guid: 15157e7dae8de1b42b2ab20ba28dfb39, type: 3}
       propertyPath: m_RootOrder
       value: 1

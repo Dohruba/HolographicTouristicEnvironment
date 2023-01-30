@@ -19,16 +19,20 @@ public class SceneSelection : MonoBehaviourPun
     public void SelectScene(string city)
     {
         int cityNumber = int.Parse(city);
+        GameObject[] buildings = GameObject.FindGameObjectsWithTag("Building");
         Debug.Log("Selected: " + city);
+        foreach(GameObject building in buildings)
+        {
+            PhotonNetwork.Destroy(building);
+        }
         if (isProyectorController)
         {
             Debug.Log("Changing scene");
-            PhotonNetwork.DestroyAll();
-            foreach (GameObject place in cities)
+            foreach(GameObject place in cities)
             {
                 place.SetActive(false);
             }
-            if (cities.Length > 0)  cities[cityNumber].SetActive(true);
+            if(cities.Length > 0) cities[cityNumber].SetActive(true);
         }
     }
 }
