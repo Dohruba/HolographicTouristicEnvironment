@@ -1596,6 +1596,10 @@ PrefabInstance:
       propertyPath: ignoreDistanceClamp
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6068135082576225583, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: spawnPosition.y
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6389150325145703624, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1607,6 +1611,34 @@ PrefabInstance:
     - target: {fileID: 6389150325145703625, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
       propertyPath: ignoreDistanceClamp
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813003890408231530, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.00000016763806
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813003891679963240, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813003891679963241, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813003891679963241, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813003891679963241, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000010678588
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813003891679963241, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813003891679963241, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6.6002045
       objectReference: {fileID: 0}
     - target: {fileID: 7052216553010555072, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
       propertyPath: sceneViewId
@@ -1622,7 +1654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8410690493965265973, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8410690493965265973, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
       propertyPath: m_LocalPosition.y
