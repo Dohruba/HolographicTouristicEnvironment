@@ -8,7 +8,7 @@ public class QuickInstantiate : MonoBehaviour
     private GameObject _prefab;
     private void Awake()
     {
-        Instantiate();
+       // Instantiate();
         
     }
     private void OnEnable()
