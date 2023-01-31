@@ -1389,6 +1389,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 791054204960245161, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 791054204960245161, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1149312303}
+    - target: {fileID: 791054204960245161, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClickChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 791054204960245161, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NetworkManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 791054204960245161, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547671032875702972, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 16c4598049dd3f0408e8b343109e041c, type: 2}
     - target: {fileID: 2549340460843275264, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1408,6 +1432,14 @@ PrefabInstance:
     - target: {fileID: 3593289570701166706, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
       propertyPath: m_Name
       value: HandMenuPlane
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030162971434615137, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5166867211677399802, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5658638583175793309, guid: 2eda4219ef12c6a40a8229621a7ed082, type: 3}
       propertyPath: m_Mesh
