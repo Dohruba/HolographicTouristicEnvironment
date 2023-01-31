@@ -201,10 +201,6 @@ PrefabInstance:
       propertyPath: ignoreDistanceClamp
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2345987021167765247, guid: 416d32a9d8908bf4192f3ceabf906d18, type: 3}
-      propertyPath: spawnPosition.y
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 3041161751980035663, guid: 416d32a9d8908bf4192f3ceabf906d18, type: 3}
       propertyPath: m_Name
       value: QuestionButton

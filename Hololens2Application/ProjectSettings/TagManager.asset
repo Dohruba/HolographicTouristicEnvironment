@@ -8,6 +8,7 @@ TagManager:
   - CameraManager
   - Building
   - Miniroom
+  - UI_Cue
   layers:
   - Default
   - TransparentFX

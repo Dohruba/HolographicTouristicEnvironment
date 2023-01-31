@@ -7,14 +7,22 @@ public class InfoPanel : MonoBehaviour
     public Vector3 spawnPosition;
     private bool isHeldInPlace = true;
     [SerializeField] private GameObject panelRenderer;
-
+    [SerializeField] private GameObject interactionCue;
     private void OnEnable()
     {
         panelRenderer.SetActive(false);
+        if(interactionCue != null)
+        {
+            interactionCue.SetActive(false);
+        }
         StartCoroutine(HoldBasePosition());
     }
     private void OnDisable()
     {
+        if (interactionCue != null)
+        {
+            interactionCue.SetActive(true);
+        }
         StopAllCoroutines();
     }
     public void ReturnToSpawnPosition()

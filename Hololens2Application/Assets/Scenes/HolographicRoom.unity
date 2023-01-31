@@ -712,6 +712,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1352826727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4639869391776055355, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+  m_PrefabInstance: {fileID: 8410690493598549360}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1437568500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,6 +1426,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4639869391776055355, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068135082576225583, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: interactionCue
+      value: 
+      objectReference: {fileID: 1352826727}
+    - target: {fileID: 6813003891679963241, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.43
+      objectReference: {fileID: 0}
     - target: {fileID: 8410690493965265971, guid: b2a78b0dc775c9846aa47e663234ea16, type: 3}
       propertyPath: m_Name
       value: MiniCity

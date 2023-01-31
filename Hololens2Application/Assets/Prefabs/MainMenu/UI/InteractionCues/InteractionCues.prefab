@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 6076088974819009545}
   m_Layer: 0
   m_Name: InteractionCues
-  m_TagString: Untagged
+  m_TagString: UI_Cue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,6 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosition: {x: 0.363, y: 0, z: 0}
   panelRenderer: {fileID: 6076088973363458215}
+  interactionCue: {fileID: 0}
 --- !u!114 &6076088974819009544
 MonoBehaviour:
   m_ObjectHideFlags: 0
