@@ -4,9 +4,5 @@ using UnityEngine;
 
 public class MiniCityController : MonoBehaviour, IMiniCityController
 {
-    public void ToggleMiniCity(GameObject miniCity)
-    {
-        bool isActive = miniCity.gameObject.activeSelf;
-        miniCity.SetActive(!isActive);
-    }
+
 }

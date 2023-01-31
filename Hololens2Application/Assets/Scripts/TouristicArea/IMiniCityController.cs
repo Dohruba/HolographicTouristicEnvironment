@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IMiniCityController
 {
-    void ToggleMiniCity(GameObject miniCity);
+    
 }
