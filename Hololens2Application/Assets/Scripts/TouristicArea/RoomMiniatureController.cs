@@ -30,6 +30,11 @@ public class RoomMiniatureController : MonoBehaviour, IRoomMiniatureController
         GameObject[] roomConstraints = GameObject.FindGameObjectsWithTag("MiniRoomConstraint");
         originOfConstraint = roomConstraints[0].transform;
         limitOfConstraint = roomConstraints[1].transform;
+
+        boundsControl.ScaleHandlesConfig.ShowScaleHandles = false;
+        boundsControl.RotationHandlesConfig.ShowHandleForX = false;
+        boundsControl.RotationHandlesConfig.ShowHandleForZ = false;
+
     }
 
     private void FixedUpdate()
@@ -90,7 +95,6 @@ public class RoomMiniatureController : MonoBehaviour, IRoomMiniatureController
     private void ReactivateBounds()
     {
         objectManipulator.enabled = true;
-        //boundsControl.enabled = true;
     }
 }
 enum Comparison

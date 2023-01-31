@@ -1305,6 +1305,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1219081024334789725}
     m_Modifications:
+    - target: {fileID: 295335182184426818, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845698208026289481, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 9072617655461348210}
     - target: {fileID: 2845698208026289482, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
       propertyPath: m_Name
       value: InfoButton
@@ -1370,6 +1378,11 @@ PrefabInstance:
 --- !u!4 &2589119918998284738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2845698208026289522, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+  m_PrefabInstance: {fileID: 329771747984837808}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9072617655461348210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8753867480988815298, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
   m_PrefabInstance: {fileID: 329771747984837808}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1219081024099861580
@@ -3623,6 +3636,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1219081025257787821}
     m_Modifications:
+    - target: {fileID: 295335182184426818, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845698208026289481, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 7934812998290830683}
     - target: {fileID: 2845698208026289482, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
       propertyPath: m_Name
       value: InfoButton (3)
@@ -3685,6 +3706,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+--- !u!1 &7934812998290830683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8753867480988815298, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+  m_PrefabInstance: {fileID: 1686002647614126745}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3465538642778726379 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2845698208026289522, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
@@ -3759,6 +3785,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1219081024135931246}
     m_Modifications:
+    - target: {fileID: 295335182184426818, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845698208026289481, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 4750457169000290960}
     - target: {fileID: 2845698208026289482, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
       propertyPath: m_Name
       value: InfoButton (3)
@@ -3821,6 +3855,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+--- !u!1 &4750457169000290960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8753867480988815298, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+  m_PrefabInstance: {fileID: 4077727679474226514}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2299946092844396576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2845698208026289522, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
@@ -3833,6 +3872,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1219081025031007735}
     m_Modifications:
+    - target: {fileID: 295335182184426818, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845698208026289481, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 4652076467037203390}
     - target: {fileID: 2845698208026289482, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
       propertyPath: m_Name
       value: InfoButton (2)
@@ -3900,6 +3947,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2845698208026289522, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
   m_PrefabInstance: {fileID: 4176106782627357820}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4652076467037203390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8753867480988815298, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+  m_PrefabInstance: {fileID: 4176106782627357820}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5407222969024227025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3907,6 +3959,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1684824303060025715}
     m_Modifications:
+    - target: {fileID: 295335182184426818, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845698208026289481, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 3634876299013204243}
     - target: {fileID: 2845698208026289482, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
       propertyPath: m_Name
       value: InfoButton (4)
@@ -3967,8 +4027,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8753867480988815298, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+--- !u!1 &3634876299013204243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8753867480988815298, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+  m_PrefabInstance: {fileID: 5407222969024227025}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5660595473813241273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3976,6 +4045,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1219081025782096320}
     m_Modifications:
+    - target: {fileID: 295335182184426818, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845698208026289481, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 4032275893542777467}
     - target: {fileID: 2845698208026289482, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
       propertyPath: m_Name
       value: InfoButton (1)
@@ -4038,6 +4115,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+--- !u!1 &4032275893542777467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8753867480988815298, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
+  m_PrefabInstance: {fileID: 5660595473813241273}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7634598517168478411 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2845698208026289522, guid: adbacf217b19f944bb4f505f8087cf56, type: 3}
