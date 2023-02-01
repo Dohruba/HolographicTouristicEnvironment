@@ -90,16 +90,17 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4594539162627434043}
-  - component: {fileID: 1368863117185917850}
-  - component: {fileID: 93583253902385621}
-  - component: {fileID: 6213941095718960942}
-  - component: {fileID: 1432874577257567286}
-  - component: {fileID: 3277676908871811462}
   - component: {fileID: 7391944442909646606}
-  - component: {fileID: 2960330184114383834}
+  - component: {fileID: 93583253902385621}
+  - component: {fileID: 1432874577257567286}
+  - component: {fileID: 6213941095718960942}
+  - component: {fileID: 1368863117185917850}
+  - component: {fileID: 3277676908871811462}
   - component: {fileID: 3969896417610437271}
+  - component: {fileID: 2960330184114383834}
   - component: {fileID: 7723170918466252867}
   - component: {fileID: 8534094448462251359}
+  - component: {fileID: 4279606537448053392}
   m_Layer: 0
   m_Name: RoomMiniature
   m_TagString: Miniroom
@@ -123,7 +124,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1368863117185917850
+--- !u!114 &7391944442909646606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,11 +133,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5987780541866657746}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f5aa120f182020419fad49e289d1067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
+  originOfConstraint: {fileID: 0}
+  limitOfConstraint: {fileID: 0}
+  objectManipulator: {fileID: 93583253902385621}
+  boundsControl: {fileID: 6213941095718960942}
 --- !u!114 &93583253902385621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +173,19 @@ MonoBehaviour:
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4279606537448053392}
+        m_TargetAssemblyTypeName: OwnershipTransfer, Assembly-CSharp
+        m_MethodName: TransferOwnership
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
@@ -180,6 +195,20 @@ MonoBehaviour:
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1432874577257567286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987780541866657746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTetherWhenManipulating: 0
+  IsBoundsHandles: 0
 --- !u!114 &6213941095718960942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,7 +260,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   elasticsManager: {fileID: 0}
---- !u!114 &1432874577257567286
+--- !u!114 &1368863117185917850
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -240,11 +269,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5987780541866657746}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
+  m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 0
-  IsBoundsHandles: 0
+  autoConstraintSelection: 1
+  selectedConstraints: []
 --- !u!114 &3277676908871811462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,40 +286,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b3e6359c9750ad4fb8a05c9b8704d7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handType: 3
-  proximityType: 3
+  handType: -1
+  proximityType: -1
   executionOrder: 0
   constraintOnRotation: 5
   useLocalSpaceForConstraint: 1
---- !u!114 &7391944442909646606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5987780541866657746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f5aa120f182020419fad49e289d1067, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  originOfConstraint: {fileID: 0}
-  limitOfConstraint: {fileID: 0}
-  objectManipulator: {fileID: 93583253902385621}
-  boundsControl: {fileID: 6213941095718960942}
---- !u!65 &2960330184114383834
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5987780541866657746}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3969896417610437271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,6 +309,19 @@ MonoBehaviour:
   scaleMinimum: 1
   scaleMaximum: 1
   relativeToInitialState: 1
+--- !u!65 &2960330184114383834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987780541866657746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7723170918466252867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,8 +337,8 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: 0
-  Synchronization: 3
-  OwnershipTransfer: 0
+  Synchronization: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 8534094448462251359}
@@ -347,7 +360,19 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
-  m_UseLocal: 1
+  m_UseLocal: 0
+--- !u!114 &4279606537448053392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987780541866657746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a094e49b166f644b86839b9bec7862, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7653113647013620669
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,11 @@ public class InfoPanel : MonoBehaviour
     private bool isHeldInPlace = true;
     [SerializeField] private GameObject panelRenderer;
     [SerializeField] private GameObject interactionCue;
+
+    private void Start()
+    {
+        StartCoroutine(InitialSetup());
+    }
     private void OnEnable()
     {
         panelRenderer.SetActive(false);
@@ -15,7 +20,7 @@ public class InfoPanel : MonoBehaviour
         {
             interactionCue.SetActive(false);
         }
-        StartCoroutine(HoldBasePosition());
+        //StartCoroutine(HoldBasePosition());
     }
     private void OnDisable()
     {
@@ -29,15 +34,20 @@ public class InfoPanel : MonoBehaviour
     {
         transform.localPosition = spawnPosition;
     }
-    private IEnumerator HoldBasePosition()
+    //private IEnumerator HoldBasePosition()
+    //{
+    //    yield return new WaitForSecondsRealtime(0.1f);
+    //    ReturnToSpawnPosition();
+    //    //while (isHeldInPlace)
+    //    //{
+    //    //    ReturnToSpawnPosition();
+    //    //    panelRenderer.SetActive(true);
+    //    //    yield return new WaitForSeconds(30);
+    //    //}
+    //}
+    private IEnumerator InitialSetup()
     {
-        yield return new WaitForSecondsRealtime(0.1f);
+        yield return new WaitForSeconds(3);
         ReturnToSpawnPosition();
-        while (isHeldInPlace)
-        {
-            ReturnToSpawnPosition();
-            panelRenderer.SetActive(true);
-            yield return new WaitForSeconds(30);
-        }
     }
 }

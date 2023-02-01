@@ -5,15 +5,16 @@ using UnityEngine;
 public class MiniCityController : MonoBehaviour, IMiniCityController
 {
     [SerializeField]
-    private bool isInitialized = false;
+    private bool isEnvironmentInitialized = false;
     [SerializeField]
-    private GameObject instantiator;
+    private GameObject miniRoomInstantiator;
     public void InstantiateRoomOnScan()
     {
-        if (!isInitialized)
+        if (!isEnvironmentInitialized)
         {
-            instantiator.GetComponent<QuickInstantiate>().Instantiate();
-            isInitialized = true;
+            miniRoomInstantiator.GetComponent<QuickInstantiate>().CheckToInstantiate();
+
+            isEnvironmentInitialized = true;
             Debug.Log("Initialized.");
         }
     }

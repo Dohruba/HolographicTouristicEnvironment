@@ -9,6 +9,13 @@ public class QuickInstantiate : MonoBehaviour
     private GameObject _prefab;
     [SerializeField]
     private bool onAwake = false;
+    [SerializeField]
+    private bool isRoomInitialized = false;
+    [SerializeField]
+    private NetworkManager networkManager;
+
+    public bool IsRoomInitialized { get => isRoomInitialized; set => isRoomInitialized = value; }
+
     private void Awake()
     {
         if(onAwake) Instantiate();
@@ -21,5 +28,13 @@ public class QuickInstantiate : MonoBehaviour
             transform.position.z);
 
         MasterManager.NetworkInstantiate(_prefab, pos, Quaternion.identity);
+        networkManager.OnRoomInstantiated();
+    }
+    public void CheckToInstantiate()
+    {
+        if (!isRoomInitialized)
+        {
+            Instantiate();
+        }
     }
 }

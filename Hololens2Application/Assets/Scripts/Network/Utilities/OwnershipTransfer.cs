@@ -5,8 +5,12 @@ using UnityEngine;
 
 public class OwnershipTransfer : MonoBehaviourPun
 {
-    private void OnMouseDown()
+    
+    public void TransferOwnership()
     {
-        base.photonView.RequestOwnership();
+        if (!base.photonView.IsMine)
+        {
+            base.photonView.RequestOwnership();
+        }
     }
 }
