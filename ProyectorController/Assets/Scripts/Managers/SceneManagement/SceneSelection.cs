@@ -15,6 +15,12 @@ public class SceneSelection : MonoBehaviourPun
     private bool isProyectorController;
     [SerializeField]
     private GameObject[] cities;
+    [SerializeField]
+    private Vector3 instantiatePosition;
+
+    public GameObject[] Cities { get => cities; set => cities = value; }
+    public Vector3 InstantiatePosition { get => instantiatePosition; set => instantiatePosition = value; }
+
     [PunRPC]
     public void SelectScene(string city)
     {
@@ -30,9 +36,11 @@ public class SceneSelection : MonoBehaviourPun
             Debug.Log("Changing scene");
             foreach(GameObject place in cities)
             {
+                place.transform.position = instantiatePosition;
                 place.SetActive(false);
             }
             if(cities.Length > 0) cities[cityNumber].SetActive(true);
+
         }
     }
 }

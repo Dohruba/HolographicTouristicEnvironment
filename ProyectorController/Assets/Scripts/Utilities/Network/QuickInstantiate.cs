@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,8 @@ public class QuickInstantiate : MonoBehaviour
 {
     [SerializeField]
     private GameObject _prefab;
+    [SerializeField]
+    private Transform positionReference;
     private void Awake()
     {
        // Instantiate();
@@ -18,10 +21,22 @@ public class QuickInstantiate : MonoBehaviour
 
     private void Instantiate()
     {
-        Vector3 pos = new Vector3(transform.position.x,
-        transform.position.y,
-        transform.position.z);
+        Vector3 pos = positionReference == null ? 
+            new Vector3(transform.position.x, transform.position.y, transform.position.z) : 
+            positionReference.position;
 
         MasterManager.NetworkInstantiate(_prefab, pos, Quaternion.identity);
+    }
+
+    public void SetPositionReference()
+    {
+        try
+        {
+            positionReference = GameObject.FindGameObjectWithTag("MiniRoom").transform;
+        }
+        catch (NullReferenceException e)
+        {
+            Debug.Log("MiniRoom not yet instantiated");
+        }
     }
 }

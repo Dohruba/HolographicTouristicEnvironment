@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 40813678}
   m_Layer: 0
   m_Name: City3
-  m_TagString: Untagged
+  m_TagString: Instantiator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -246,36 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 3372995700451877808, guid: 641c6d01691bc994d8cc1db8bb560fd6, type: 3}
---- !u!1 &355615094
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 355615095}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &355615095
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 355615094}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6107466, y: -6.8451567, z: 16.63591}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  positionReference: {fileID: 0}
 --- !u!1 &362839155
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,7 +510,7 @@ GameObject:
   - component: {fileID: 852214312}
   m_Layer: 0
   m_Name: City2
-  m_TagString: Untagged
+  m_TagString: Instantiator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -606,6 +577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 1219081025598919906, guid: 1c3e36b224cf8b744be841a8522a5fcf, type: 3}
+  positionReference: {fileID: 0}
 --- !u!1 &1188047375
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,7 +590,7 @@ GameObject:
   - component: {fileID: 1188047376}
   m_Layer: 0
   m_Name: InstantiatePurple
-  m_TagString: Untagged
+  m_TagString: Instantiator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -636,6 +608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 3372995700451877808, guid: 1b80be59d0ee6ce44875cfa85c8c38ed, type: 3}
+  positionReference: {fileID: 0}
 --- !u!4 &1188047377
 Transform:
   m_ObjectHideFlags: 0
@@ -662,7 +635,7 @@ GameObject:
   - component: {fileID: 1212825832}
   m_Layer: 0
   m_Name: InstantiateGreenBlock (1)
-  m_TagString: Untagged
+  m_TagString: Instantiator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -694,6 +667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 7023572791867140704, guid: 8ade85c8aab0f1e4c8f1867cd199f23a, type: 3}
+  positionReference: {fileID: 0}
 --- !u!1 &1422342471
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,6 +698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 7023572791867140704, guid: 0fb9ef9893c53ce488c9e65a368125d5, type: 3}
+  positionReference: {fileID: 0}
 --- !u!4 &1422342473
 Transform:
   m_ObjectHideFlags: 0
@@ -858,6 +833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 9158661663957310158, guid: 1bd96f5042d50274ab807f6d81532b52, type: 3}
+  positionReference: {fileID: 0}
 --- !u!4 &1625218453
 Transform:
   m_ObjectHideFlags: 0
@@ -882,6 +858,10 @@ PrefabInstance:
     - target: {fileID: 3535037192664605908, guid: 8455b8eabb1b67a4ea5e6f5c35413479, type: 3}
       propertyPath: m_Name
       value: InfoReciever
+      objectReference: {fileID: 0}
+    - target: {fileID: 3535037192664605908, guid: 8455b8eabb1b67a4ea5e6f5c35413479, type: 3}
+      propertyPath: m_TagString
+      value: InformationReciever
       objectReference: {fileID: 0}
     - target: {fileID: 3535037192664605910, guid: 8455b8eabb1b67a4ea5e6f5c35413479, type: 3}
       propertyPath: m_RootOrder
@@ -955,6 +935,7 @@ MonoBehaviour:
   - {fileID: 1784053407}
   - {fileID: 852214311}
   - {fileID: 40813677}
+  instantiatePosition: {fileID: 0}
 --- !u!1 &1784053407
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,11 +947,11 @@ GameObject:
   - component: {fileID: 1784053408}
   m_Layer: 0
   m_Name: City1
-  m_TagString: Untagged
+  m_TagString: Instantiator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1784053408
 Transform:
   m_ObjectHideFlags: 0
@@ -1033,6 +1014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 9158661663957310158, guid: dc9b3f8edb854564ba4a11b6f619a3dd, type: 3}
+  positionReference: {fileID: 0}
 --- !u!1 &1943177528
 GameObject:
   m_ObjectHideFlags: 0

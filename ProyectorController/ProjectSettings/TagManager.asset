@@ -7,8 +7,10 @@ TagManager:
   - FrontCamera
   - CameraManager
   - SideCamera
-  - MiniRoomConstraint
   - Building
+  - MiniRoom
+  - Instantiator
+  - InformationReciever
   layers:
   - Default
   - TransparentFX

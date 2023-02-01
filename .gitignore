@@ -87,3 +87,9 @@ crashlytics-build.properties
 
 
 #/ProyectorController/Assets/Photon/*
+Hololens2Application/Assets/Resources/VuforiaConfiguration.asset
+Hololens2Application/Assets/Resources/VuforiaConfiguration.asset.meta
+Hololens2Application/Assets/Editor/Migration/AddVuforiaEnginePackage.cs
+Hololens2Application/Assets/Editor/Migration/AddVuforiaEnginePackage.cs.meta
+Hololens2Application/Assets/Editor/Vuforia/ImageTargetTextures/ExcerciseOneAR.meta
+Hololens2Application/Packages/com.ptc.vuforia.engine-10.12.3.tgz

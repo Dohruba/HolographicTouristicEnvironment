@@ -8,13 +8,10 @@ public class QuickInstantiate : MonoBehaviour
     [SerializeField]
     private GameObject _prefab;
     [SerializeField]
-    private bool testing = false;
+    private bool onAwake = false;
     private void Awake()
     {
-        Instantiate();
-    }
-    private void Update()
-    {
+        if(onAwake) Instantiate();
     }
 
     public void Instantiate()
