@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IMiniCityController
 {
-    
+    public void InstantiateRoomOnScan();
 }
