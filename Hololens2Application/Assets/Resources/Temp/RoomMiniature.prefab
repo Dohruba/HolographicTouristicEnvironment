@@ -136,8 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f5aa120f182020419fad49e289d1067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originOfConstraint: {fileID: 0}
-  limitOfConstraint: {fileID: 0}
   objectManipulator: {fileID: 93583253902385621}
   boundsControl: {fileID: 6213941095718960942}
 --- !u!114 &93583253902385621

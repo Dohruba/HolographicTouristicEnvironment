@@ -5,10 +5,8 @@ using UnityEngine;
 
 public class RoomInstancesController : MonoBehaviourPun
 {
-    private GameObject[] currentInstances;
     [SerializeField]
     private bool isRoomInitialized = false;
-
     public bool IsRoomInitialized { get => isRoomInitialized; set => isRoomInitialized = value; }
 
     [PunRPC]

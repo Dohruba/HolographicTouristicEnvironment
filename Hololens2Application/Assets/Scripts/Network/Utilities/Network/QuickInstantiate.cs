@@ -13,6 +13,10 @@ public class QuickInstantiate : MonoBehaviour
     private bool isRoomInitialized = false;
     [SerializeField]
     private NetworkManager networkManager;
+    [SerializeField]
+    private Transform referenceTransform;
+    private Vector3 position;
+
 
     public bool IsRoomInitialized { get => isRoomInitialized; set => isRoomInitialized = value; }
 
@@ -23,17 +27,16 @@ public class QuickInstantiate : MonoBehaviour
 
     public void Instantiate()
     {
-        Vector3 pos = new Vector3(transform.position.x,
-            transform.position.y,
-            transform.position.z);
-
-        MasterManager.NetworkInstantiate(_prefab, pos, Quaternion.identity);
+        if (position == null) position = transform.position;
+        MasterManager.NetworkInstantiate(_prefab, position, Quaternion.identity);
         networkManager.OnRoomInstantiated();
     }
     public void CheckToInstantiate()
     {
         if (!isRoomInitialized)
         {
+            position = referenceTransform.position + new Vector3(0, 0, 1);
+            isRoomInitialized = true;
             Instantiate();
         }
     }

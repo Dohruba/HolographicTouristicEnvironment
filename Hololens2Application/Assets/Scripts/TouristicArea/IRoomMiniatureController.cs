@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IRoomMiniatureController
 {
-    void LimitRoomMovement();
+    
 }

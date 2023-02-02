@@ -12,9 +12,8 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
     {
         if (!isEnvironmentInitialized)
         {
-            miniRoomInstantiator.GetComponent<QuickInstantiate>().CheckToInstantiate();
-
             isEnvironmentInitialized = true;
+            miniRoomInstantiator.GetComponent<QuickInstantiate>().CheckToInstantiate();
             Debug.Log("Initialized.");
         }
     }
