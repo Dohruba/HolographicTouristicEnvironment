@@ -9,6 +9,8 @@ TagManager:
   - Building
   - Miniroom
   - UI_Cue
+  - ReferencePosition
+  - LocalManager
   layers:
   - Default
   - TransparentFX

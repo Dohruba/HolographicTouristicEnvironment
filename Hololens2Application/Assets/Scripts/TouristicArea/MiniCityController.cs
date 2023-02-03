@@ -8,13 +8,17 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
     private bool isEnvironmentInitialized = false;
     [SerializeField]
     private GameObject miniRoomInstantiator;
-    public void InstantiateRoomOnScan()
+
+    public void InstantiateMiniRoom()
     {
-        if (!isEnvironmentInitialized)
+        if (isEnvironmentInitialized)
         {
-            isEnvironmentInitialized = true;
             miniRoomInstantiator.GetComponent<QuickInstantiate>().CheckToInstantiate();
             Debug.Log("Initialized.");
         }
+    }
+    public void InitializeEnvironmentOnScan()
+    {
+        isEnvironmentInitialized = true;
     }
 }

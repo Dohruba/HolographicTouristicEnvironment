@@ -7,16 +7,9 @@ using UnityEngine;
 public class RoomMiniatureController : MonoBehaviour
 {
     [SerializeField]
-    private ObjectManipulator objectManipulator;
-    [SerializeField]
     private BoundsControl boundsControl;
-    private bool isOutside = false;
-
-
-
     private void Awake()
     {
-        objectManipulator = GetComponent<ObjectManipulator>();
         boundsControl = GetComponent<BoundsControl>();
     }
     private void Start()
@@ -26,6 +19,5 @@ public class RoomMiniatureController : MonoBehaviour
         boundsControl.ScaleHandlesConfig.ShowScaleHandles = false;
         boundsControl.RotationHandlesConfig.ShowHandleForX = false;
         boundsControl.RotationHandlesConfig.ShowHandleForZ = false;
-
     }
 }

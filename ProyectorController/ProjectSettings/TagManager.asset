@@ -12,6 +12,7 @@ TagManager:
   - Instantiator
   - InformationReciever
   - RPCManager
+  - SceneManager
   layers:
   - Default
   - TransparentFX

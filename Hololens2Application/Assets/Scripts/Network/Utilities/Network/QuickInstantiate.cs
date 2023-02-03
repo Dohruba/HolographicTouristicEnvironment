@@ -14,7 +14,6 @@ public class QuickInstantiate : MonoBehaviour
     [SerializeField]
     private NetworkManager networkManager;
     [SerializeField]
-    private Transform referenceTransform;
     private Vector3 position;
 
 
@@ -35,7 +34,6 @@ public class QuickInstantiate : MonoBehaviour
     {
         if (!isRoomInitialized)
         {
-            position = referenceTransform.position + new Vector3(0, 0, 1);
             isRoomInitialized = true;
             Instantiate();
         }

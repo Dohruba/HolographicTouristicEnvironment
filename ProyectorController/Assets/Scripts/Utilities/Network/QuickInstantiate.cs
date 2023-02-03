@@ -21,10 +21,8 @@ public class QuickInstantiate : MonoBehaviour
 
     private void Instantiate()
     {
-        Vector3 pos = positionReference == null ? 
-            new Vector3(transform.position.x, transform.position.y, transform.position.z) : 
-            positionReference.position;
-
+        SetPositionReference();
+        Vector3 pos = SceneSelection.InstantiatePosition;
         MasterManager.NetworkInstantiate(_prefab, pos, Quaternion.identity);
     }
 

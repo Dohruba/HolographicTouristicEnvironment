@@ -2,6 +2,11 @@
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
     <ImageTarget name="MarkerVestiJOG" size="0.200000 0.125000" />
+    <ImageTarget name="CardTarget" size="0.055000 0.084967" />
+    <ImageTarget name="MangaTarget" size="0.125000 0.181318" />
+    <ImageTarget name="BookMarker" size="0.050000 0.144605" />
     <ImageTarget name="tarmac_scaled_scaled" size="0.300000 0.210059" />
+    <ImageTarget name="chips_scaled_scaled" size="0.300000 0.210059" />
+    <ImageTarget name="cats" size="0.080000 0.063938" />
   </Tracking>
 </QCARConfig>

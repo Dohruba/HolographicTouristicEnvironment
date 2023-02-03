@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class OwnershipTransfer : MonoBehaviourPun
 {
-    private void TransferOwnership()
+    public void TransferOwnership()
     {
         base.photonView.RequestOwnership();
     }
