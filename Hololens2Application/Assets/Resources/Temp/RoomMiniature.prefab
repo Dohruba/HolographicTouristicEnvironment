@@ -137,7 +137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boundsControl: {fileID: 6213941095718960942}
-  referencePosition: {x: 0, y: 0, z: 0}
 --- !u!114 &93583253902385621
 MonoBehaviour:
   m_ObjectHideFlags: 0
