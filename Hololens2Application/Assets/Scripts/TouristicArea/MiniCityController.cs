@@ -8,6 +8,8 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
     private bool isEnvironmentInitialized = false;
     [SerializeField]
     private GameObject miniRoomInstantiator;
+    [SerializeField]
+    private GameObject[] roomObjects;
 
     public void InstantiateMiniRoom()
     {
@@ -20,5 +22,13 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
     public void InitializeEnvironmentOnScan()
     {
         isEnvironmentInitialized = true;
+    }
+
+    public void ActivateRoomContent()
+    {
+        foreach(GameObject roomObject in roomObjects)
+        {
+            roomObject.SetActive(true);
+        }
     }
 }
