@@ -11,6 +11,10 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
     [SerializeField]
     private GameObject[] roomObjects;
 
+    private void Start()
+    {
+        ActivateRoomContent(false);
+    }
     public void InstantiateMiniRoom()
     {
         if (isEnvironmentInitialized)
@@ -24,11 +28,11 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
         isEnvironmentInitialized = true;
     }
 
-    public void ActivateRoomContent()
+    public void ActivateRoomContent( bool activate)
     {
         foreach(GameObject roomObject in roomObjects)
         {
-            roomObject.SetActive(true);
+            roomObject.SetActive(activate);
         }
     }
 }

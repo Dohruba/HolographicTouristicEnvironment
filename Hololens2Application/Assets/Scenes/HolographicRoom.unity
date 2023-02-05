@@ -379,14 +379,14 @@ MonoBehaviour:
       - m_Target: {fileID: 729948007}
         m_TargetAssemblyTypeName: MiniCityController, Assembly-CSharp
         m_MethodName: ActivateRoomContent
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
@@ -2954,6 +2954,18 @@ PrefabInstance:
     - target: {fileID: 2485353431881388930, guid: 2105ec9cf237f704585c61e83283b4f4, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408005189398525682, guid: 2105ec9cf237f704585c61e83283b4f4, type: 3}
+      propertyPath: m_Looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408005189398525682, guid: 2105ec9cf237f704585c61e83283b4f4, type: 3}
+      propertyPath: m_SkipOnDrop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408005189398525682, guid: 2105ec9cf237f704585c61e83283b4f4, type: 3}
+      propertyPath: m_PlaybackSpeed
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: 5115696820996654924, guid: 2105ec9cf237f704585c61e83283b4f4, type: 3}
       propertyPath: m_LocalScale.z
