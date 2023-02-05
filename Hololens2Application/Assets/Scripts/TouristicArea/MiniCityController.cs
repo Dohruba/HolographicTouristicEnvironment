@@ -10,6 +10,8 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
     private GameObject miniRoomInstantiator;
     [SerializeField]
     private GameObject[] roomObjects;
+    [SerializeField]
+    private static GameObject[] dialogPanels;
 
     private void Start()
     {
@@ -28,11 +30,20 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
         isEnvironmentInitialized = true;
     }
 
-    public void ActivateRoomContent( bool activate)
+    public void ActivateRoomContent(bool activate)
     {
         foreach(GameObject roomObject in roomObjects)
         {
             roomObject.SetActive(activate);
+        }
+    }
+    public static void DeactivateOtherDialogPanels(GameObject dialog)
+    {
+        dialogPanels = GameObject.FindGameObjectsWithTag("DialogPanel");
+        foreach (GameObject dialogPanel in dialogPanels)
+        {
+            if (dialog == dialogPanel) continue;
+            dialogPanel.SetActive(false);
         }
     }
 }

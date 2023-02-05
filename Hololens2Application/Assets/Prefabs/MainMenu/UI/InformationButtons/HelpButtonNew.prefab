@@ -1850,7 +1850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 815575718, guid: 7d04d12842ed8d34a803bbc20680a131, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 815575718, guid: 7d04d12842ed8d34a803bbc20680a131, type: 3}
       propertyPath: interactionCue
