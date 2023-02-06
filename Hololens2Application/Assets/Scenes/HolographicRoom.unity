@@ -806,7 +806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 423488347}
   mHiddenRoot: {fileID: 0}
-  mTargetName: MangaTarget
+  mTargetName: MarkerVestiJOG
   mDatasetName: Vuforia/ExcerciseOneAR.xml
   mCastedBehaviour: {fileID: 423488347}
   mMeshFilter: {fileID: 0}
@@ -930,13 +930,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: MangaTarget
+  mTrackableName: MarkerVestiJOG
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/ExcerciseOneAR.xml
-  mAspectRatio: 1.450544
+  mAspectRatio: 0.625
   mImageTargetType: 0
-  mWidth: 0.125
-  mHeight: 0.181318
+  mWidth: 0.2
+  mHeight: 0.125
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
