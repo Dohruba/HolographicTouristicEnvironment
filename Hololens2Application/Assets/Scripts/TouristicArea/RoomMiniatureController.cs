@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoomMiniatureController : MonoBehaviour
+public class RoomMiniatureController : MonoBehaviour, IRoomMiniatureController
 {
     [SerializeField]
     private BoundsControl boundsControl;
@@ -15,7 +15,12 @@ public class RoomMiniatureController : MonoBehaviour
     private void Start()
     {
         GameObject[] roomConstraints = GameObject.FindGameObjectsWithTag("MiniRoomConstraint");
+        SetBoundControls();
 
+    }
+
+    public void SetBoundControls()
+    {
         boundsControl.ScaleHandlesConfig.ShowScaleHandles = false;
         boundsControl.RotationHandlesConfig.ShowHandleForX = false;
         boundsControl.RotationHandlesConfig.ShowHandleForZ = false;

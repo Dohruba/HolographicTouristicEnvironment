@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuickInstantiate : MonoBehaviour
+public class QuickInstantiate : MonoBehaviour,IQuickInstantiateClient
 {
     [SerializeField]
     private GameObject _prefab;

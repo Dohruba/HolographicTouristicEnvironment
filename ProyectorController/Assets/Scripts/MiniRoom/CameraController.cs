@@ -40,10 +40,5 @@ public class CameraController : MonoBehaviour
 
             }
         }
-        if (isCameraFound)
-        {
-            frontCamera.fieldOfView = _InfoReciever.GetComponent<InformationSender>().FoVDisplay1;
-            sideCamera.fieldOfView = _InfoReciever.GetComponent<InformationSender>().FoVDisplay2;
-        }
     }
 }

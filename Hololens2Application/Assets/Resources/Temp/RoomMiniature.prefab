@@ -453,9 +453,9 @@ GameObject:
   - component: {fileID: 1368863117185917850}
   - component: {fileID: 3277676908871811462}
   - component: {fileID: 3969896417610437271}
-  - component: {fileID: 2960330184114383834}
   - component: {fileID: 7723170918466252867}
   - component: {fileID: 8534094448462251359}
+  - component: {fileID: 2960330184114383834}
   - component: {fileID: 4279606537448053392}
   - component: {fileID: 366936601}
   m_Layer: 0
@@ -771,19 +771,6 @@ MonoBehaviour:
   scaleMinimum: 1
   scaleMaximum: 1
   relativeToInitialState: 1
---- !u!65 &2960330184114383834
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5987780541866657746}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7723170918466252867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -823,6 +810,19 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 0
+--- !u!65 &2960330184114383834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987780541866657746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4279606537448053392
 MonoBehaviour:
   m_ObjectHideFlags: 0

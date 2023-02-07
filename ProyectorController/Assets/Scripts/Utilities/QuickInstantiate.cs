@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuickInstantiate : MonoBehaviour
+public class QuickInstantiate : MonoBehaviour, IQuickInstantiateMaster
 {
     [SerializeField]
     private GameObject _prefab;
@@ -19,7 +19,7 @@ public class QuickInstantiate : MonoBehaviour
         Instantiate();
     }
 
-    private void Instantiate()
+    public void Instantiate()
     {
         SetPositionReference();
         Vector3 pos = SceneSelection.InstantiatePosition;
