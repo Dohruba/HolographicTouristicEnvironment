@@ -12,6 +12,9 @@ TagManager:
   - ReferencePosition
   - LocalManager
   - DialogPanel
+  - Bullet
+  - Anchor
+  - TableBase
   layers:
   - Default
   - TransparentFX

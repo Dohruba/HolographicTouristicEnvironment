@@ -15,6 +15,8 @@ public class QuickInstantiate : MonoBehaviour,IQuickInstantiateClient
     private NetworkManager networkManager;
     [SerializeField]
     private Vector3 position;
+    [SerializeField]
+    private GameObject reference;
 
 
     public bool IsRoomInitialized { get => isRoomInitialized; set => isRoomInitialized = value; }
@@ -26,7 +28,9 @@ public class QuickInstantiate : MonoBehaviour,IQuickInstantiateClient
 
     public void Instantiate()
     {
-        if (position == null) position = transform.position;
+        if (reference != null) position = reference.transform.position;
+        //if (position == null) position = transform.position;
+        Debug.Log(position);
         MasterManager.NetworkInstantiate(_prefab, position, Quaternion.identity);
         networkManager.OnRoomInstantiated();
     }

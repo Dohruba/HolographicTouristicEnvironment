@@ -4,8 +4,31 @@ using UnityEngine;
 
 public class ApplicationManager : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject AnchorParent;
     public void CloseAppliacation()
     {
         Application.Quit();
     }
+    private void Start()
+    {
+        StartCoroutine(CallSpatialAnchors());
+    }
+
+    private IEnumerator CallSpatialAnchors()
+    {
+        AnchorModuleScript anchor = AnchorParent.GetComponent<AnchorModuleScript>();
+        yield return new WaitForSeconds(4);
+        anchor.StartAzureSession();
+        yield return new WaitForSeconds(4);
+        anchor.GetAzureAnchorIdFromNetwork();
+        yield return new WaitForSeconds(4);
+        anchor.FindAzureAnchor();
+        yield return new WaitForSeconds(4);
+        anchor.StopAzureSession();
+        gameObject.GetComponent<MiniCityController>().AnchorWasFound();
+    }
+
+
+
 }

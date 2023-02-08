@@ -18,6 +18,7 @@ public class MasterManager : SingletonScriptableObject<MasterManager>
 
     public static GameObject NetworkInstantiate(GameObject obj, Vector3 pos, Quaternion rotation)
     {
+        Debug.Log("Call to instantiate " + obj.name);
         foreach (NetworkedPrefab networkedPrefab in instance._networkedPrefabs)
         {
             if (networkedPrefab.prefab == obj)
@@ -26,6 +27,7 @@ public class MasterManager : SingletonScriptableObject<MasterManager>
                 {
 
                     GameObject result = PhotonNetwork.Instantiate(networkedPrefab.Path, pos, rotation);
+                    Debug.Log("AAAAAAAAAAA");
                     return result;
                 }
                 else

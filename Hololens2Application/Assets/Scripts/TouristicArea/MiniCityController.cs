@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
     private GameObject[] roomObjects;
     [SerializeField]
     private static GameObject[] dialogPanels;
+    private bool hasAnchorBeenFound = false;
 
     private void Start()
     {
@@ -19,12 +21,10 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
     }
     public void InstantiateMiniRoom()
     {
-        if (isEnvironmentInitialized)
-        {
-            miniRoomInstantiator.GetComponent<QuickInstantiate>().CheckToInstantiate();
-            Debug.Log("Initialized.");
-        }
+        miniRoomInstantiator.GetComponent<QuickInstantiate>().CheckToInstantiate();
+        Debug.Log("Room requested.");
     }
+
     public void InitializeEnvironmentOnScan()
     {
         isEnvironmentInitialized = true;
@@ -45,5 +45,14 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
             if (dialog == dialogPanel) continue;
             dialogPanel.SetActive(false);
         }
+    }
+    public void AnchorWasFound()
+    {
+        hasAnchorBeenFound = true;
+    }
+
+    public void RelocateMiniRoom()
+    {
+        GameObject.FindGameObjectWithTag("Miniroom").GetComponent<RoomMiniatureController>().TakePosition();
     }
 }

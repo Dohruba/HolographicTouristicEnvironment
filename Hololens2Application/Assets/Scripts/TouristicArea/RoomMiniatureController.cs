@@ -16,7 +16,6 @@ public class RoomMiniatureController : MonoBehaviour, IRoomMiniatureController
     {
         GameObject[] roomConstraints = GameObject.FindGameObjectsWithTag("MiniRoomConstraint");
         SetBoundControls();
-
     }
 
     public void SetBoundControls()
@@ -24,5 +23,9 @@ public class RoomMiniatureController : MonoBehaviour, IRoomMiniatureController
         boundsControl.ScaleHandlesConfig.ShowScaleHandles = false;
         boundsControl.RotationHandlesConfig.ShowHandleForX = false;
         boundsControl.RotationHandlesConfig.ShowHandleForZ = false;
+    }
+    public void TakePosition()
+    {
+        transform.position = GameObject.FindGameObjectWithTag("Anchor").transform.position;
     }
 }

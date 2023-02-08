@@ -18,17 +18,17 @@ public class SceneSelection : MonoBehaviourPun
     [PunRPC]
     public void SelectScene(string city)
     {
-        int cityNumber = int.Parse(city);
+        //int cityNumber = int.Parse(city);
         Debug.Log("Selected: " + city);
-        if (isProyectorController)
-        {
-            Debug.Log("Changing scene");
-            PhotonNetwork.DestroyAll();
-            foreach (GameObject place in cities)
-            {
-                place.SetActive(false);
-            }
-            if (cities.Length > 0)  cities[cityNumber].SetActive(true);
-        }
+        //if (isProyectorController)
+        //{
+        //    Debug.Log("Changing scene");
+        //    PhotonNetwork.DestroyAll();
+        //    foreach (GameObject place in cities)
+        //    {
+        //        place.SetActive(false);
+        //    }
+        //    if (cities.Length > 0)  cities[cityNumber].SetActive(true);
+        //}
     }
 }

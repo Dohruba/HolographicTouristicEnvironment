@@ -8,7 +8,7 @@ public class RotationUtility : MonoBehaviour
     private Quaternion rotation;
     [SerializeField]
     private bool rotate;
-    private void OnEnable()
+    private void Start()
     {
         if(rotate) transform.rotation = rotation;
     }

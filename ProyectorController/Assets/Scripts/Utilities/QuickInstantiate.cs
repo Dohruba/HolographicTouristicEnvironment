@@ -21,9 +21,10 @@ public class QuickInstantiate : MonoBehaviour, IQuickInstantiateMaster
 
     public void Instantiate()
     {
-        SetPositionReference();
         Vector3 pos = SceneSelection.InstantiatePosition;
-        MasterManager.NetworkInstantiate(_prefab, pos, Quaternion.identity);
+        Quaternion rot = SceneSelection.rotation;
+        Debug.Log("Instantiated in: -------------" + pos.ToString());
+        MasterManager.NetworkInstantiate(_prefab, pos, rot);
     }
 
     public void SetPositionReference()

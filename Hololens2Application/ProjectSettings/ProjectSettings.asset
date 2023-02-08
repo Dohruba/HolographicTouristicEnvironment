@@ -653,6 +653,7 @@ PlayerSettings:
   platformCapabilities:
     WindowsStoreApps:
       GazeInput: True
+      PrivateNetworkClientServer: True
       SpatialPerception: True
       InternetClient: True
       WebCam: True
