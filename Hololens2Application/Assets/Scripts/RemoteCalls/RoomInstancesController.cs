@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class RoomInstancesController : MonoBehaviourPun
 {
-    [SerializeField]
-    private GameObject roomInstantiator;
+    //[SerializeField]
+    //private GameObject roomInstantiator;
 
-    [PunRPC]
-    public void RoomInitalized()
-    {
-        roomInstantiator.GetComponent<QuickInstantiate>().IsRoomInitialized = true;
-    }
+    //[PunRPC]
+    //public void RoomInitalized()
+    //{
+    //    roomInstantiator.GetComponent<InstantiateUtility>().IsRoomInitialized = true;
+    //}
 }

@@ -4,11 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public enum cities
-{
-    city1,city2,city3,city4
-}
-
 public class SceneSelection : MonoBehaviourPun
 {
     [SerializeField]
@@ -18,17 +13,17 @@ public class SceneSelection : MonoBehaviourPun
     [PunRPC]
     public void SelectScene(string city)
     {
-        //int cityNumber = int.Parse(city);
+        int cityNumber = int.Parse(city.Split(' ')[0];
         Debug.Log("Selected: " + city);
-        //if (isProyectorController)
-        //{
-        //    Debug.Log("Changing scene");
-        //    PhotonNetwork.DestroyAll();
-        //    foreach (GameObject place in cities)
-        //    {
-        //        place.SetActive(false);
-        //    }
-        //    if (cities.Length > 0)  cities[cityNumber].SetActive(true);
-        //}
+        if (isProyectorController)
+        {
+            Debug.Log("Changing scene");
+            PhotonNetwork.DestroyAll();
+            foreach (GameObject place in cities)
+            {
+                place.SetActive(false);
+            }
+            if (cities.Length > 0) cities[cityNumber].SetActive(true);
+        }
     }
 }

@@ -12,7 +12,9 @@ public class ApplicationManager : MonoBehaviour
     }
     private void Start()
     {
+#if !UNITY_EDITOR
         StartCoroutine(CallSpatialAnchors());
+#endif
     }
 
     private IEnumerator CallSpatialAnchors()
@@ -26,7 +28,7 @@ public class ApplicationManager : MonoBehaviour
         anchor.FindAzureAnchor();
         yield return new WaitForSeconds(4);
         anchor.StopAzureSession();
-        gameObject.GetComponent<MiniCityController>().AnchorWasFound();
+        //gameObject.GetComponent<TouristicSceneController>().AnchorWasFound();
     }
 
 

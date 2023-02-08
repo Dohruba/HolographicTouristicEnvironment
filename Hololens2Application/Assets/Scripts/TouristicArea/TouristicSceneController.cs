@@ -3,26 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MiniCityController : MonoBehaviour, IMiniCityController
+public class TouristicSceneController : MonoBehaviour, ITouristicSceneController
 {
     [SerializeField]
     private bool isEnvironmentInitialized = false;
-    [SerializeField]
-    private GameObject miniRoomInstantiator;
+    //[SerializeField]
+    //private GameObject miniRoomInstantiator;
     [SerializeField]
     private GameObject[] roomObjects;
     [SerializeField]
     private static GameObject[] dialogPanels;
-    private bool hasAnchorBeenFound = false;
+    //private bool hasAnchorBeenFound = false;
 
     private void Start()
     {
         ActivateRoomContent(false);
-    }
-    public void InstantiateMiniRoom()
-    {
-        miniRoomInstantiator.GetComponent<QuickInstantiate>().CheckToInstantiate();
-        Debug.Log("Room requested.");
     }
 
     public void InitializeEnvironmentOnScan()
@@ -45,10 +40,6 @@ public class MiniCityController : MonoBehaviour, IMiniCityController
             if (dialog == dialogPanel) continue;
             dialogPanel.SetActive(false);
         }
-    }
-    public void AnchorWasFound()
-    {
-        hasAnchorBeenFound = true;
     }
 
     public void RelocateMiniRoom()

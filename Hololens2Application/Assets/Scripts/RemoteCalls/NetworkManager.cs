@@ -19,8 +19,8 @@ public class NetworkManager : MonoBehaviour
         PhotonView.Get(_InformationExchange).RPC("SelectScene",RpcTarget.All, city);
     }
 
-    public void OnRoomInstantiated()
-    {
-        PhotonView.Get(_InformationExchange).RPC("RoomInitalized", RpcTarget.All);
-    }
+    //public void OnRoomInstantiated()
+    //{
+    //    PhotonView.Get(_InformationExchange).RPC("RoomInitalized", RpcTarget.All);
+    //}
 }

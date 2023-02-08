@@ -14,7 +14,6 @@ public class RoomMiniatureController : MonoBehaviour, IRoomMiniatureController
     }
     private void Start()
     {
-        GameObject[] roomConstraints = GameObject.FindGameObjectsWithTag("MiniRoomConstraint");
         SetBoundControls();
     }
 

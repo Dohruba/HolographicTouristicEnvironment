@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class SceneManager : MonoBehaviour
 {
-    public Vector3 referencePosition;
-    private bool isInitialized = false;
+    //public Vector3 referencePosition;
+    //private bool isInitialized = false;
     [SerializeField]
     private GameObject MiniRoomInstantiator;
 
@@ -14,14 +14,14 @@ public class SceneManager : MonoBehaviour
     {
         StartCoroutine(InstantiateMiniRoom());
     }
-    public void InitalizeReferencePosition(Vector3 position)
-    {
-        if (!isInitialized)
-        {
-            referencePosition = position;
-            SceneSelection.InstantiatePosition = position;
-        }
-    }
+    //public void InitalizeReferencePosition(Vector3 position)
+    //{
+    //    if (!isInitialized)
+    //    {
+    //        referencePosition = position;
+    //        SceneSelection.InstantiatePosition = position;
+    //    }
+    //}
 
     private IEnumerator InstantiateMiniRoom()
     {

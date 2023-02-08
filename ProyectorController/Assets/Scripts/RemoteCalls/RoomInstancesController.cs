@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class RoomInstancesController : MonoBehaviourPun
 {
-    [SerializeField]
-    private bool isRoomInitialized = false;
-    public bool IsRoomInitialized { get => isRoomInitialized; set => isRoomInitialized = value; }
+    //[SerializeField]
+    //private bool isRoomInitialized = false;
+    //public bool IsRoomInitialized { get => isRoomInitialized; set => isRoomInitialized = value; }
 
-    [PunRPC]
-    public void RoomInitalized()
-    {
-        isRoomInitialized = true;
-    }
+    //[PunRPC]
+    //public void RoomInitalized()
+    //{
+    //    isRoomInitialized = true;
+    //}
 }

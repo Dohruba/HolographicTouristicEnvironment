@@ -30,7 +30,7 @@ public class SceneSelection : MonoBehaviourPun
         GameObject[] buildings = GameObject.FindGameObjectsWithTag("Building");
         Debug.Log("Selected: " + city);
         InstantiatePosition = new Vector3(float.Parse(message[1]), float.Parse(message[2]), float.Parse(message[3]));
-        Debug.Log(message);
+
         float x = float.Parse(message[4]);
         float y = float.Parse(message[5]);
         float z = float.Parse(message[6]);

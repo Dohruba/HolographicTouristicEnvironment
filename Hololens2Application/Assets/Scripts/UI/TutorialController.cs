@@ -10,7 +10,7 @@ public enum State
     End = 3,
     HelpPrompt = 4
 }
-public class Tutorial : MonoBehaviour
+public class TutorialController : MonoBehaviour
 {
     [SerializeField]
     private GameObject _helpPropmtPrefab;
@@ -22,6 +22,8 @@ public class Tutorial : MonoBehaviour
     private GameObject _handMenuPanels;
     [SerializeField]
     private State state;
+    private bool hasMarkerBeenScanned = false;
+    private bool hasSelectedScene;
 
     internal State State { get => state; set => state = value; }
 
@@ -32,12 +34,21 @@ public class Tutorial : MonoBehaviour
 
     public void ChangingState(int stateNumber)
     {
-        state = state != State.HelpPrompt ? (State)stateNumber : State.End;
+        state = IsStateHelpPrompt() ? State.End : (State)stateNumber;
 
         _helpPropmtPrefab.SetActive(state == State.Interaction || state == State.HelpPrompt);
-        _solverToMarker.SetActive(state == State.Scanning);
-        _handMenuIndicator.SetActive(state == State.HandMenu);
+        _solverToMarker.SetActive(state == State.Scanning && !hasMarkerBeenScanned);
+        _handMenuIndicator.SetActive(state == State.HandMenu && !hasSelectedScene);
         _handMenuPanels.SetActive(state == State.HandMenu);
+        if (state == State.Scanning && !hasMarkerBeenScanned)
+            hasMarkerBeenScanned = true;
+        if (state == State.HandMenu && !hasSelectedScene)
+            hasSelectedScene = true;
+    }
+
+    private bool IsStateHelpPrompt()
+    {
+        return state == State.HelpPrompt;
     }
 
 }

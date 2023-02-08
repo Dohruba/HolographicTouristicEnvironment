@@ -25,7 +25,6 @@ public class CameraController : MonoBehaviour
             Display.displays[i].Activate();
         }
     }
-    // Update is called once per frame
     void Update()
     {
         if (!isCameraFound)
@@ -35,9 +34,10 @@ public class CameraController : MonoBehaviour
                 frontCamera = GameObject.FindGameObjectWithTag("FrontCamera").GetComponent<Camera>();
                 sideCamera = GameObject.FindGameObjectWithTag("SideCamera").GetComponent<Camera>();
                 if (frontCamera != null && sideCamera!= null) isCameraFound = true;
+                Debug.Log("Cameras found and set.");
             }catch(Exception e)
             {
-
+                Debug.Log("Cameras not yet found.");
             }
         }
     }
