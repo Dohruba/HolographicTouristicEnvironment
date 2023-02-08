@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NetworkManager : MonoBehaviour
+public class RPCMessenger : MonoBehaviour
 {
     public GameObject _InformationExchange;
     public void OnClickChangeScene(string city)

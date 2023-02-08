@@ -13,7 +13,7 @@ public class SceneSelection : MonoBehaviourPun
     [PunRPC]
     public void SelectScene(string city)
     {
-        int cityNumber = int.Parse(city.Split(' ')[0];
+        int cityNumber = int.Parse(city.Split(' ')[0]);
         Debug.Log("Selected: " + city);
         if (isProyectorController)
         {
