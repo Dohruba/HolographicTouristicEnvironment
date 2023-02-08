@@ -21,7 +21,7 @@ public class ApplicationManager : MonoBehaviour
         yield return new WaitForSeconds(4);
         anchor.StartAzureSession();
         yield return new WaitForSeconds(4);
-        anchor.GetAzureAnchorIdFromNetwork();
+        anchor.GetAzureAnchorIdFromDisk();
         yield return new WaitForSeconds(4);
         anchor.FindAzureAnchor();
         yield return new WaitForSeconds(4);
