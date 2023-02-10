@@ -28,7 +28,6 @@ public class ApplicationManager : MonoBehaviour
         anchor.FindAzureAnchor();
         yield return new WaitForSeconds(4);
         anchor.StopAzureSession();
-        //gameObject.GetComponent<TouristicSceneController>().AnchorWasFound();
     }
 
 

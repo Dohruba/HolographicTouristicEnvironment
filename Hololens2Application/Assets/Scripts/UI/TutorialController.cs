@@ -29,26 +29,33 @@ public class TutorialController : MonoBehaviour
 
     void Start()
     {
-        ChangingState(0);
+        ChangeState(0);
     }
 
-    public void ChangingState(int stateNumber)
+    public void ChangeState(int stateNumber)
     {
         state = IsStateHelpPrompt() ? State.End : (State)stateNumber;
+        ActivateStateContent();
+        CheckMarkerStatus();
+    }
 
+    private void ActivateStateContent()
+    {
         _helpPropmtPrefab.SetActive(state == State.Interaction || state == State.HelpPrompt);
         _solverToMarker.SetActive(state == State.Scanning && !hasMarkerBeenScanned);
         _handMenuIndicator.SetActive(state == State.HandMenu && !hasSelectedScene);
         _handMenuPanels.SetActive(state == State.HandMenu);
+    }
+
+    private void CheckMarkerStatus()
+    {
         if (state == State.Scanning && !hasMarkerBeenScanned)
             hasMarkerBeenScanned = true;
         if (state == State.HandMenu && !hasSelectedScene)
             hasSelectedScene = true;
     }
-
     private bool IsStateHelpPrompt()
     {
         return state == State.HelpPrompt;
     }
-
 }

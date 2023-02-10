@@ -641,7 +641,7 @@ GameObject:
   - component: {fileID: -6548990214771059772}
   m_Layer: 0
   m_Name: CityMockup3
-  m_TagString: Building
+  m_TagString: City
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

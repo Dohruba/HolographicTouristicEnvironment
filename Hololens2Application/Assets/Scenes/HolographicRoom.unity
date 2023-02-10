@@ -1242,8 +1242,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 729948010}
-        m_TargetAssemblyTypeName: Tutorial, Assembly-CSharp
-        m_MethodName: ChangingState
+        m_TargetAssemblyTypeName: TutorialController, Assembly-CSharp
+        m_MethodName: ChangeState
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2719,6 +2719,14 @@ PrefabInstance:
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 729948010}
+    - target: {fileID: 1379360467, guid: 7000653eb73288348a88953b251cd28a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeState
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379360467, guid: 7000653eb73288348a88953b251cd28a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TutorialController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3178616116436068799, guid: 7000653eb73288348a88953b251cd28a, type: 3}
       propertyPath: linksConfiguration
       value: 
@@ -2803,6 +2811,14 @@ PrefabInstance:
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 729948010}
+    - target: {fileID: 9215795903327741024, guid: 7000653eb73288348a88953b251cd28a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeState
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215795903327741024, guid: 7000653eb73288348a88953b251cd28a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TutorialController, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7000653eb73288348a88953b251cd28a, type: 3}
 --- !u!4 &1077902114 stripped
@@ -6619,7 +6635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224741685, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 349758199, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6635,7 +6651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519571482, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 519571482, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Positions.Array.data[0].x
@@ -6667,7 +6683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 683129648, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 683129648, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Positions.Array.data[0].x
@@ -6810,6 +6826,10 @@ PrefabInstance:
     - target: {fileID: 614604802031839858, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_fontSizeBase
       value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 614604802117790394, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.9986
       objectReference: {fileID: 0}
     - target: {fileID: 614604803038248291, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6977,11 +6997,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangingState
+      value: ChangeState
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Tutorial, Assembly-CSharp
+      value: TutorialController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
@@ -7000,6 +7020,10 @@ PrefabInstance:
       value: -0.0042
       objectReference: {fileID: 0}
     - target: {fileID: 2358464556286755997, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373487487501813296, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -7041,7 +7065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2918017321836643595, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.035
+      value: 0.03013144
       objectReference: {fileID: 0}
     - target: {fileID: 3080297210272115504, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_IsActive
@@ -7049,7 +7073,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207457915425682652, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3207457915425682652, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Positions.Array.data[0].x
@@ -7077,7 +7101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3503438179853685317, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3503438179853685317, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Positions.Array.data[0].x
@@ -7105,7 +7129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3535268790616694996, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3535268790616694996, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Positions.Array.data[0].x
@@ -7169,11 +7193,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangingState
+      value: ChangeState
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Tutorial, Assembly-CSharp
+      value: TutorialController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
@@ -7267,11 +7291,11 @@ PrefabInstance:
       objectReference: {fileID: 729948010}
     - target: {fileID: 7490550773498262158, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangingState
+      value: ChangeState
       objectReference: {fileID: 0}
     - target: {fileID: 7490550773498262158, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Tutorial, Assembly-CSharp
+      value: TutorialController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7490550773498262158, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -7303,11 +7327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangingState
+      value: ChangeState
       objectReference: {fileID: 0}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Tutorial, Assembly-CSharp
+      value: TutorialController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
@@ -7335,7 +7359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8283280708125420582, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.056
+      value: 0.04526288
       objectReference: {fileID: 0}
     - target: {fileID: 8881213197107661112, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_Enabled
@@ -7499,7 +7523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9081241273404243823, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.055
+      value: 0.04526288
       objectReference: {fileID: 0}
     - target: {fileID: 9162143720269130625, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: m_LocalScale.x

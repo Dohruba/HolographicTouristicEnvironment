@@ -8,16 +8,30 @@ public class RPCMessenger : MonoBehaviour
 {
     public GameObject _InformationExchange;
     private Transform _Anchor;
+    private string spacer = " ";
     public void OnClickChangeScene(string city)
     {
         _Anchor = GameObject.FindGameObjectWithTag("Anchor").transform;
-        string position =   _Anchor.position.x.ToString() + " " +
-                            _Anchor.position.y.ToString() + " " +
-                            _Anchor.position.z.ToString() + " ";
-        string rotation =   Math.Ceiling(_Anchor.rotation.eulerAngles.x).ToString() + " " +
-                            Math.Ceiling(_Anchor.rotation.eulerAngles.y).ToString() + " " +
-                            Math.Ceiling(_Anchor.rotation.eulerAngles.z).ToString();
-        city = city + " " + position + rotation;
+        string position = PositionToString(_Anchor.position);
+        string rotation = RotationToString(_Anchor.rotation);
+        city = city + spacer + position + spacer + rotation;
         PhotonView.Get(_InformationExchange).RPC("SelectScene",RpcTarget.All, city);
+    }
+
+    private string PositionToString(Vector3 position)
+    {
+        string result = "";
+        result += position.x.ToString() + spacer;
+        result += position.y.ToString() + spacer;
+        result += position.z.ToString();
+        return result;
+    }
+    private string RotationToString(Quaternion rotation)
+    {
+        string result = "";
+        result += rotation.eulerAngles.x.ToString() + spacer;
+        result += rotation.eulerAngles.y.ToString() + spacer;
+        result += rotation.eulerAngles.z.ToString();
+        return result;
     }
 }
