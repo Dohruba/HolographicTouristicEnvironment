@@ -7,17 +7,21 @@ using UnityEngine;
 public class RPCMessenger : MonoBehaviour
 {
     public GameObject _InformationExchange;
+    private Transform _Anchor;
     public void OnClickChangeScene(string city)
     {
-        string position = GameObject.FindGameObjectWithTag("Anchor").transform.position.x.ToString() + " " +
-            GameObject.FindGameObjectWithTag("Anchor").transform.position.y.ToString() + " " +
-            GameObject.FindGameObjectWithTag("Anchor").transform.position.z.ToString() + " ";
-        string rotation = Math.Ceiling((GameObject.FindGameObjectWithTag("Anchor").transform.rotation.eulerAngles.x)).ToString() + " " +
-             Math.Ceiling(GameObject.FindGameObjectWithTag("Anchor").transform.rotation.eulerAngles.y).ToString() + " " +
-              Math.Ceiling(GameObject.FindGameObjectWithTag("Anchor").transform.rotation.eulerAngles.z).ToString();
+        _Anchor = GameObject.FindGameObjectWithTag("Anchor").transform;
+        string position =   _Anchor.position.x.ToString() + " " +
+                            _Anchor.position.y.ToString() + " " +
+                            _Anchor.position.z.ToString() + " ";
+        string rotation =   Math.Ceiling(_Anchor.rotation.eulerAngles.x).ToString() + " " +
+                            Math.Ceiling(_Anchor.rotation.eulerAngles.y).ToString() + " " +
+                            Math.Ceiling(_Anchor.rotation.eulerAngles.z).ToString();
         city = city + " " + position + rotation;
         PhotonView.Get(_InformationExchange).RPC("SelectScene",RpcTarget.All, city);
     }
+
+
 
     //public void OnRoomInstantiated()
     //{

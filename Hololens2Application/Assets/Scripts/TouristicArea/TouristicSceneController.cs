@@ -13,6 +13,8 @@ public class TouristicSceneController : MonoBehaviour, ITouristicSceneController
     private GameObject[] roomObjects;
     [SerializeField]
     private static GameObject[] dialogPanels;
+    private bool initialRelocation = true;
+
     //private bool hasAnchorBeenFound = false;
 
     private void Start()
@@ -45,5 +47,13 @@ public class TouristicSceneController : MonoBehaviour, ITouristicSceneController
     public void RelocateMiniRoom()
     {
         GameObject.FindGameObjectWithTag("Miniroom").GetComponent<RoomMiniatureController>().TakePosition();
+    }
+    public void InitialRoomRelocation()
+    {
+        if (initialRelocation)
+        {
+            initialRelocation = false;
+            RelocateMiniRoom();
+        }
     }
 }

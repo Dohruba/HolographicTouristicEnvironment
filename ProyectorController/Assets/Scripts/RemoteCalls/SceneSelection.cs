@@ -3,12 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public enum cities
-{
-    city1,city2,city3,city4
-}
-
 public class SceneSelection : MonoBehaviourPun
 {
     [SerializeField]

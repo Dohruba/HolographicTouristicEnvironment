@@ -1278,8 +1278,8 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 729948007}
-        m_TargetAssemblyTypeName: MiniCityController, Assembly-CSharp
-        m_MethodName: RelocateMiniRoom
+        m_TargetAssemblyTypeName: TouristicSceneController, Assembly-CSharp
+        m_MethodName: InitialRoomRelocation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

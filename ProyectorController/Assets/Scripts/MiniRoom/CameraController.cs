@@ -16,29 +16,41 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("displays connected: " + Display.displays.Length);
-        // Display.displays[0] is the primary, default display and is always ON, so start at index 1.
-        // Check if additional displays are available and activate each.
+        ActivateDisplays();
+    }
+    void Update()
+    {
+        //SetCameras();
+    }
 
-        for (int i = 1; i < Display.displays.Length; i++)
+    /**
+     * Activates all available displays, to be able to assign them Camera components.
+     */
+    private void ActivateDisplays() {
+        int numberOfDisplays = Display.displays.Length;
+        for (int i = 1; i < numberOfDisplays; i++)
         {
             Display.displays[i].Activate();
         }
     }
-    void Update()
-    {
-        if (!isCameraFound)
-        {
-            try
-            {
-                frontCamera = GameObject.FindGameObjectWithTag("FrontCamera").GetComponent<Camera>();
-                sideCamera = GameObject.FindGameObjectWithTag("SideCamera").GetComponent<Camera>();
-                if (frontCamera != null && sideCamera!= null) isCameraFound = true;
-                Debug.Log("Cameras found and set.");
-            }catch(Exception e)
-            {
-                Debug.Log("Cameras not yet found.");
-            }
-        }
-    }
+    ///**
+    // * Try to find the camera components and assign them to their 
+    // */
+    //private void SetCameras()
+    //{
+    //    if (!isCameraFound)
+    //    {
+    //        try
+    //        {
+    //            frontCamera = GameObject.FindGameObjectWithTag("FrontCamera").GetComponent<Camera>();
+    //            sideCamera = GameObject.FindGameObjectWithTag("SideCamera").GetComponent<Camera>();
+    //            if (frontCamera != null && sideCamera != null) isCameraFound = true;
+    //            Debug.Log("Cameras found and set.");
+    //        }
+    //        catch (Exception e)
+    //        {
+    //            Debug.Log("Cameras not yet found.");
+    //        }
+    //    }
+    //}
 }
