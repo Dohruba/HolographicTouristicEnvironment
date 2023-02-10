@@ -39,7 +39,7 @@ Transform:
   - {fileID: 4694084918997672687}
   - {fileID: 4694084919697101273}
   m_Father: {fileID: 4694084919255802816}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4249570194225569023
 MonoBehaviour:
@@ -174,10 +174,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   uniformDistortionStrength: 1
   controlPoints:
-    Point1: {x: 0.015043936, y: -0.12210012, z: 0.020651419}
-    Point2: {x: 0.1400437, y: -0.07209996, z: 0.020651225}
-    Point3: {x: -0.12499961, y: 0.16101761, z: 0.000000009313226}
-    Point4: {x: -0.0000000060013834, y: 0.22926243, z: 0.0000000014853587}
+    Point1: {x: 0.01504383, y: -0.12210013, z: 0.020651419}
+    Point2: {x: 0.1400435, y: -0.07209997, z: 0.020651225}
+    Point3: {x: -0.12499976, y: 0.15810324, z: 0.000000009313226}
+    Point4: {x: -0.00000014073584, y: 0.22634806, z: 0.0000000014853587}
   useLocalTangentPoints: 1
 --- !u!114 &5534658599898115459
 MonoBehaviour:
@@ -326,8 +326,8 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: 0.019610811, y: -0.01999567, z: -0.010400057}
-  - {x: 0.015250053, y: 0.08133774, z: -0.024099998}
+  - {x: 0.7123181, y: -0.02989353, z: -0.010400057}
+  - {x: 0.7057988, y: 0.12034323, z: -0.024099998}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.01
@@ -595,10 +595,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   uniformDistortionStrength: 1
   controlPoints:
-    Point1: {x: -0.07922952, y: 0.040745247, z: 0.020651419}
-    Point2: {x: 0.045770243, y: 0.09074528, z: 0.020651225}
-    Point3: {x: -0.1249998, y: 0.16101758, z: 0.000000009313226}
-    Point4: {x: -0.000000020881913, y: 0.2292624, z: 0.0000000014853587}
+    Point1: {x: -0.07922949, y: 0.040745243, z: 0.020651419}
+    Point2: {x: 0.04577017, y: 0.09074528, z: 0.020651225}
+    Point3: {x: -0.12499976, y: 0.15810326, z: 0.000000009313226}
+    Point4: {x: -0.000000045040963, y: 0.22634807, z: 0.0000000014853587}
   useLocalTangentPoints: 1
 --- !u!114 &1417625711985375528
 MonoBehaviour:
@@ -747,8 +747,8 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: 0.09581078, y: 0.02610432, z: -0.010400057}
-  - {x: 0.11864135, y: 0.08046817, z: -0.024099998}
+  - {x: 0.82623714, y: 0.039025955, z: -0.010400057}
+  - {x: 0.8603688, y: 0.11904324, z: -0.024099998}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.01
@@ -874,7 +874,7 @@ Transform:
   m_GameObject: {fileID: 2752736764548462251}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.001}
-  m_LocalScale: {x: 0.11692765, y: 0.02094705, z: 1}
+  m_LocalScale: {x: 0.13768184, y: 0.023890838, z: 1}
   m_Children: []
   m_Father: {fileID: 4969077374981552205}
   m_RootOrder: 1
@@ -1236,7 +1236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6804648815680588328}
   m_Layer: 0
-  m_Name: Close button
+  m_Name: Close button reference
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1250,7 +1250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2865645611115095539}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0699, y: 0.0783, z: 0}
+  m_LocalPosition: {x: 0.2259, y: 0.0783, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4694084919255802816}
@@ -1428,10 +1428,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   uniformDistortionStrength: 1
   controlPoints:
-    Point1: {x: 0.19460651, y: 0.06828561, z: 0.03632856}
-    Point2: {x: 0.3196063, y: 0.11828564, z: 0.036328368}
-    Point3: {x: -0.12499975, y: 0.16101758, z: 0.000000009313226}
-    Point4: {x: 0.000000011296205, y: 0.2292624, z: 0.0000000014853587}
+    Point1: {x: 0.64049786, y: 0.06828561, z: 0.03632856}
+    Point2: {x: 0.7654975, y: 0.11828563, z: 0.036328368}
+    Point3: {x: -0.125, y: 0.15810326, z: 0.000000009313226}
+    Point4: {x: -0.00000017703871, y: 0.22634807, z: 0.0000000014853587}
   useLocalTangentPoints: 1
 --- !u!114 &8654062142821279051
 MonoBehaviour:
@@ -1580,8 +1580,8 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: -0.03038049, y: 0.0340478, z: 0.000000003745987}
-  - {x: -0.08653255, y: 0.08046817, z: -0.024099998}
+  - {x: 0.82985103, y: 0.050901458, z: 0.000000003745987}
+  - {x: 0.5536338, y: 0.11904324, z: -0.024099998}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.01
@@ -1784,7 +1784,7 @@ Transform:
   - {fileID: 4694084920112577736}
   - {fileID: 4694084920185794801}
   m_Father: {fileID: 4694084919255802816}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
 --- !u!1 &4694084918997672686
 GameObject:
@@ -1958,10 +1958,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   uniformDistortionStrength: 1
   controlPoints:
-    Point1: {x: -0.104222216, y: -0.12210012, z: 0.011651419}
-    Point2: {x: 0.020777546, y: -0.07209996, z: 0.011651225}
-    Point3: {x: -0.12499961, y: 0.16690513, z: 0.000000009662472}
-    Point4: {x: -0.0000000060013834, y: 0.23514995, z: 0.0000000018235893}
+    Point1: {x: -0.10422228, y: -0.12210013, z: 0.011651419}
+    Point2: {x: 0.020777464, y: -0.07209997, z: 0.011651225}
+    Point3: {x: -0.12499976, y: 0.16690513, z: 0.000000009662472}
+    Point4: {x: -0.00000014073584, y: 0.23514995, z: 0.0000000018235893}
   useLocalTangentPoints: 1
 --- !u!114 &4694084918997672685
 MonoBehaviour:
@@ -2110,8 +2110,8 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: -0.014789176, y: -0.01999567, z: -0.010400056}
-  - {x: 0.015250052, y: 0.08303589, z: -0.018129488}
+  - {x: 0.66089016, y: -0.02989353, z: -0.010400056}
+  - {x: 0.7057988, y: 0.12413864, z: -0.018129488}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.01
@@ -2636,6 +2636,7 @@ Transform:
   - {fileID: 7318789821554472181}
   - {fileID: 6804648815680588328}
   - {fileID: 4468349794394325367}
+  - {fileID: 5715527015065133218}
   - {fileID: 1463229658421722901}
   - {fileID: 4694084918909472114}
   - {fileID: 4694084919832512970}
@@ -2814,10 +2815,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   uniformDistortionStrength: 1
   controlPoints:
-    Point1: {x: 0.11818085, y: -0.052759316, z: 0.027328562}
-    Point2: {x: 0.24318048, y: -0.0027591586, z: 0.027328368}
-    Point3: {x: -0.12499961, y: 0.16690513, z: 0.000000009662472}
-    Point4: {x: -0.0000000060013834, y: 0.23514995, z: 0.0000000018235893}
+    Point1: {x: 0.11818074, y: -0.052759316, z: 0.027328562}
+    Point2: {x: 0.24318051, y: -0.0027591586, z: 0.027328368}
+    Point3: {x: -0.12499976, y: 0.16690513, z: 0.000000009662472}
+    Point4: {x: -0.00000014073584, y: 0.23514995, z: 0.0000000018235893}
   useLocalTangentPoints: 1
 --- !u!114 &4694084919697101255
 MonoBehaviour:
@@ -2966,8 +2967,8 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: 0.049358632, y: 0.000004327122, z: 0.0000000038986965}
-  - {x: 0.015250054, y: 0.08303589, z: -0.018129488}
+  - {x: 0.7567911, y: 0.000006468835, z: 0.0000000038986965}
+  - {x: 0.7057988, y: 0.12413864, z: -0.018129488}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.01
@@ -3152,7 +3153,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4694084919255802816}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4694084919933487605
 GameObject:
@@ -4249,7 +4250,7 @@ Transform:
   m_GameObject: {fileID: 4832776024490576048}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.001}
-  m_LocalScale: {x: 0.11692765, y: 0.02094705, z: 1}
+  m_LocalScale: {x: 0.13768184, y: 0.023890838, z: 1}
   m_Children: []
   m_Father: {fileID: 8531174342895127080}
   m_RootOrder: 1
@@ -4780,6 +4781,36 @@ MonoBehaviour:
   _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
+--- !u!1 &5240809967643932304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5715527015065133218}
+  m_Layer: 0
+  m_Name: Tutorial button reference
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5715527015065133218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5240809967643932304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0699, y: 0.0783, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4694084919255802816}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7034145815320178283
 GameObject:
   m_ObjectHideFlags: 0
@@ -5209,7 +5240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7410216551216863768}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.19460651, y: 0.068285614, z: 0.036328558}
+  m_LocalPosition: {x: 0.64049804, y: 0.068285614, z: 0.036328558}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7318789821554472181}
@@ -5324,7 +5355,7 @@ Transform:
   m_GameObject: {fileID: 8273606342643948677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.001}
-  m_LocalScale: {x: 0.11692765, y: 0.02094705, z: 1}
+  m_LocalScale: {x: 0.13768184, y: 0.023890838, z: 1}
   m_Children: []
   m_Father: {fileID: 4347817975540883264}
   m_RootOrder: 1
