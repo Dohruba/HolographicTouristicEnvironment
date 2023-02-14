@@ -48,12 +48,4 @@ public class TouristicSceneController : MonoBehaviour, ITouristicSceneController
     {
         GameObject.FindGameObjectWithTag("Miniroom").GetComponent<RoomMiniatureController>().TakePosition();
     }
-    public void InitialRoomRelocation()
-    {
-        if (initialRelocation)
-        {
-            initialRelocation = false;
-            RelocateMiniRoom();
-        }
-    }
 }

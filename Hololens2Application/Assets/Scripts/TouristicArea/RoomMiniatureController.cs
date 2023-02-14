@@ -25,6 +25,20 @@ public class RoomMiniatureController : MonoBehaviour, IRoomMiniatureController
     }
     public void TakePosition()
     {
-        transform.position = GameObject.FindGameObjectWithTag("Anchor").transform.position;
+        StartCoroutine(FindAnchorAndMove());
+    }
+    private IEnumerator FindAnchorAndMove()
+    {
+        yield return new WaitForSeconds(4);
+        while (true)
+        {
+            yield return new WaitForSeconds(0.5f);
+            if (GameObject.FindGameObjectWithTag("Anchor"))
+            {
+                transform.position = GameObject.FindGameObjectWithTag("Anchor").transform.position +
+                    new Vector3(0, 0.3f, 0);
+                yield break;
+            }
+        }
     }
 }
