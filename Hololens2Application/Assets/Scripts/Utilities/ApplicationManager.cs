@@ -31,5 +31,11 @@ public class ApplicationManager : MonoBehaviour
     }
 
 
+    public void TestMoveCamera()
+    {
+        GameObject.FindGameObjectWithTag("MainCamera").transform.position += new Vector3(1, 0, 0);
+    }
+
+
 
 }
