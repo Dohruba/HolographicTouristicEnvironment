@@ -33,6 +33,7 @@ public class RoomMiniatureController : MonoBehaviour, IRoomMiniatureController
         yield return new WaitForSeconds(4);
         while (true)
         {
+            GetComponent<OwnershipTransfer>().TransferOwnership();
             yield return new WaitForSeconds(0.5f);
             if (GameObject.FindGameObjectWithTag("Anchor"))
             {
@@ -46,6 +47,7 @@ public class RoomMiniatureController : MonoBehaviour, IRoomMiniatureController
     {
         try
         {
+            GetComponent<OwnershipTransfer>().TransferOwnership();
             transform.position = GameObject.FindGameObjectWithTag("Anchor").transform.position +
                     new Vector3(0, 0.3f, 0);
         }catch(NullReferenceException e)
