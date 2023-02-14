@@ -6,6 +6,8 @@ public class ApplicationManager : MonoBehaviour
 {
     [SerializeField]
     private GameObject AnchorParent;
+    [SerializeField]
+    private TouristicSceneController localManager;
     public void CloseAppliacation()
     {
         Application.Quit();
@@ -28,6 +30,8 @@ public class ApplicationManager : MonoBehaviour
         anchor.FindAzureAnchor();
         yield return new WaitForSeconds(4);
         anchor.StopAzureSession();
+        localManager.RelocateMiniRoomInstantly();
+
     }
 
 

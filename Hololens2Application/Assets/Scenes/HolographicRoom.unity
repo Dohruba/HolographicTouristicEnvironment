@@ -1008,7 +1008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8779034279059886464, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RelocateMiniRoom
+      value: RelocateMiniRoomInstantly
       objectReference: {fileID: 0}
     - target: {fileID: 8779034279059886464, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -2632,6 +2632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AnchorParent: {fileID: 2076544463}
+  localManager: {fileID: 0}
 --- !u!114 &729948010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2722,11 +2723,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5701967716615243202, guid: c116adc6846ccd5428454bcb2271dde6, type: 3}
       propertyPath: m_text
-      value: 'Grab the samll room in the middle.
+      value: 'Grab the samll building in the middle.
 
 
-        Move it towards the buildings
-        yo want to see closer.'
+        Move it towards the
+        buildings you want to see closer, pointing the yellow area towards it.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701967716615243202, guid: c116adc6846ccd5428454bcb2271dde6, type: 3}
+      propertyPath: m_fontSize
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701967716615243202, guid: c116adc6846ccd5428454bcb2271dde6, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 5701967717095282260, guid: c116adc6846ccd5428454bcb2271dde6, type: 3}
       propertyPath: m_IsActive
@@ -3533,6 +3542,14 @@ PrefabInstance:
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: TutorialController, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 159976585262041203, guid: 7000653eb73288348a88953b251cd28a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159976586030688662, guid: 7000653eb73288348a88953b251cd28a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3178616116436068799, guid: 7000653eb73288348a88953b251cd28a, type: 3}
       propertyPath: linksConfiguration
       value: 
@@ -3561,6 +3578,14 @@ PrefabInstance:
       propertyPath: translationHandlesConfiguration
       value: 
       objectReference: {fileID: 755738867}
+    - target: {fileID: 3821488894656578105, guid: 7000653eb73288348a88953b251cd28a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821488894961689564, guid: 7000653eb73288348a88953b251cd28a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8800293177439851866, guid: 7000653eb73288348a88953b251cd28a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3659,7 +3684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1093751079
 Transform:
   m_ObjectHideFlags: 0
@@ -5396,11 +5421,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5701967716615243202, guid: c116adc6846ccd5428454bcb2271dde6, type: 3}
       propertyPath: m_text
-      value: 'Grab the samll room in the middle.
+      value: 'Grab the samll building in the middle.
 
 
-        Move it towards the buildings
-        yo want to see closer.'
+        Move it towards the
+        buildings you want to see closer, pointing the yellow area towards it.'
       objectReference: {fileID: 0}
     - target: {fileID: 5701967717095282260, guid: c116adc6846ccd5428454bcb2271dde6, type: 3}
       propertyPath: m_IsActive
@@ -8501,11 +8526,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8516,7 +8545,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 729948010}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 729948007}
+    - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
@@ -8524,12 +8561,24 @@ PrefabInstance:
       value: ChangeState
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: RelocateMiniRoomInstantly
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: TutorialController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TouristicSceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
@@ -8537,6 +8586,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056091938904305649, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2254690801391722718, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
@@ -8697,11 +8750,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8712,7 +8769,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 729948010}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 729948007}
+    - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
@@ -8720,12 +8785,24 @@ PrefabInstance:
       value: ChangeState
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: RelocateMiniRoomInstantly
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: TutorialController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TouristicSceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
@@ -8733,6 +8810,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590956242202271720, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5547501762621956769, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
@@ -8831,11 +8912,15 @@ PrefabInstance:
       objectReference: {fileID: 729948009}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8846,7 +8931,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 729948010}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 729948007}
+    - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
@@ -8854,12 +8947,24 @@ PrefabInstance:
       value: ChangeState
       objectReference: {fileID: 0}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: RelocateMiniRoomInstantly
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: TutorialController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TouristicSceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
@@ -8867,6 +8972,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053715152523973921, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8089738456463608372, guid: ce8c8dcb661388546955b8fcd69cb3b8, type: 3}

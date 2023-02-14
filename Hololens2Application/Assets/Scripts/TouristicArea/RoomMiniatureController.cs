@@ -1,5 +1,6 @@
 using Microsoft.MixedReality.Toolkit.UI;
 using Microsoft.MixedReality.Toolkit.UI.BoundsControl;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -35,10 +36,21 @@ public class RoomMiniatureController : MonoBehaviour, IRoomMiniatureController
             yield return new WaitForSeconds(0.5f);
             if (GameObject.FindGameObjectWithTag("Anchor"))
             {
-                transform.position = GameObject.FindGameObjectWithTag("Anchor").transform.position +
-                    new Vector3(0, 0.3f, 0);
+                MoveToAnchorInstantly();
                 yield break;
             }
+        }
+    }
+
+    public void MoveToAnchorInstantly()
+    {
+        try
+        {
+            transform.position = GameObject.FindGameObjectWithTag("Anchor").transform.position +
+                    new Vector3(0, 0.3f, 0);
+        }catch(NullReferenceException e)
+        {
+            TakePosition();
         }
     }
 }

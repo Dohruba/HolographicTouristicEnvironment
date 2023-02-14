@@ -14,4 +14,10 @@ public class InstantiateUtility : MonoBehaviour, IInstantiateUtilityMaster
         Debug.Log("Instantiated in: -------------" + pos.ToString());
         MasterManager.NetworkInstantiate(_prefab, pos, rot);
     }
+    public void InstantiateIn(Vector3 pos)
+    {
+        Quaternion rot = SceneSelection.Rotation;
+        Debug.Log("Instantiated in: -------------" + pos.ToString());
+        MasterManager.NetworkInstantiate(_prefab, pos, rot);
+    }
 }

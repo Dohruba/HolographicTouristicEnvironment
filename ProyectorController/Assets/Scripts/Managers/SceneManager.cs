@@ -16,6 +16,6 @@ public class SceneManager : MonoBehaviour
     private IEnumerator InstantiateMiniRoom()
     {
         yield return new WaitForSeconds(3);
-        MiniRoomInstantiator.Instantiate();
+        MiniRoomInstantiator.InstantiateIn(new Vector3(0,5,0));
     }
 }

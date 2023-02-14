@@ -15,6 +15,7 @@ public class RPCMessenger : MonoBehaviour
         string position = PositionToString(_Anchor.position);
         string rotation = RotationToString(_Anchor.rotation);
         city = city + spacer + position + spacer + rotation;
+        Debug.Log(city);
         PhotonView.Get(_InformationExchange).RPC("SelectScene",RpcTarget.All, city);
     }
 

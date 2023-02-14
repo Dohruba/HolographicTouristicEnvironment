@@ -537,6 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPos: {x: 0, y: 0, z: 0}
+  cameraRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!4 &144759084
 Transform:
   m_ObjectHideFlags: 0
@@ -1135,8 +1136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateLinkedTransform: 0
-  moveLerpTime: 0.2
-  rotateLerpTime: 0.1
+  moveLerpTime: 0.4
+  rotateLerpTime: 0.3
   scaleLerpTime: 0
   maintainScaleOnInitialization: 1
   smoothing: 1
@@ -1146,11 +1147,11 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.05
-  maxDistance: 1.5
-  defaultDistance: 0.2
+  minDistance: 0.3
+  maxDistance: 1
+  defaultDistance: 0.4
   maxViewHorizontalDegrees: 60
-  maxViewVerticalDegrees: 40
+  maxViewVerticalDegrees: 60
   reorientWhenOutsideParameters: 1
   orientToControllerDeadzoneDegrees: 60
   ignoreAngleClamp: 0
