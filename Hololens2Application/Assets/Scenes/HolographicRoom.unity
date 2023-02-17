@@ -3550,6 +3550,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1296435633739102322, guid: 7000653eb73288348a88953b251cd28a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296435634864317206, guid: 7000653eb73288348a88953b251cd28a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3178616116436068799, guid: 7000653eb73288348a88953b251cd28a, type: 3}
       propertyPath: linksConfiguration
       value: 
@@ -6527,7 +6535,7 @@ BoxCollider:
   m_GameObject: {fileID: 1828117175}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
