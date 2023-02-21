@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2756907818661966275}
   - component: {fileID: 670208679723596836}
   - component: {fileID: 8842350342574832053}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 8255467866572896807}
   - component: {fileID: 788612821349103322}
   - component: {fileID: 3548806484236700467}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 1573087042497006492}
   - component: {fileID: 5893867639727558766}
   - component: {fileID: 1952179892217458833}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 5906451071486543767}
   - component: {fileID: 3393763676982519566}
   - component: {fileID: 4385513121705595393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 6629430789312794401}
   - component: {fileID: 6555304266462986148}
   - component: {fileID: 7655618254992018844}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +486,7 @@ GameObject:
   - component: {fileID: 8819427522557876215}
   - component: {fileID: 982562590520288001}
   - component: {fileID: 4359987587938714580}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -618,7 +618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2614866104359686253}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -649,7 +649,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5280493697353052677}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Monument
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -721,7 +721,7 @@ GameObject:
   - component: {fileID: 4671763961113729790}
   - component: {fileID: 3189510831474303439}
   - component: {fileID: 4500162642340316942}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -908,7 +908,7 @@ GameObject:
   - component: {fileID: 8231388641844183404}
   - component: {fileID: 559427062014910543}
   - component: {fileID: 4726167910295295059}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6785952314287102451}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: SeeItSayItLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1034,7 +1034,7 @@ GameObject:
   - component: {fileID: 1480048157340297054}
   - component: {fileID: 2256573163904645610}
   - component: {fileID: 8180592041650508775}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1113,7 +1113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7777981605513312882}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1144,7 +1144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7067796969236135239}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1175,7 +1175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1074848001197728934}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1209,7 +1209,7 @@ GameObject:
   - component: {fileID: 3641072312118053520}
   - component: {fileID: 8283474404756607115}
   - component: {fileID: 6231112985751996010}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1309,7 +1309,7 @@ GameObject:
   - component: {fileID: 7599141195053732633}
   - component: {fileID: 4823867368644624098}
   - component: {fileID: 1300553042599479449}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoButton2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1842,7 +1842,7 @@ GameObject:
   - component: {fileID: 4678787820296525027}
   - component: {fileID: 1574602711354064000}
   - component: {fileID: 8923973454380860615}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1916,7 +1916,7 @@ GameObject:
   - component: {fileID: 1281072341751193813}
   - component: {fileID: 6416821151441837287}
   - component: {fileID: 5606845174820367454}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2011,7 +2011,7 @@ GameObject:
   - component: {fileID: 414110986933565058}
   - component: {fileID: 3612990458874445001}
   - component: {fileID: 8280132327135804994}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2106,7 +2106,7 @@ GameObject:
   - component: {fileID: 5278981646638629332}
   - component: {fileID: 7734623653333144220}
   - component: {fileID: 9003099485073419372}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2198,7 +2198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7481519990616344008}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Siegessaeule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2232,7 +2232,7 @@ GameObject:
   - component: {fileID: 2840222347171885272}
   - component: {fileID: 3706120625867819051}
   - component: {fileID: 3746454902901271285}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2305,7 +2305,7 @@ GameObject:
   - component: {fileID: 6945212399023172630}
   - component: {fileID: 7513363830069587598}
   - component: {fileID: 9029439954777377519}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2439,7 +2439,7 @@ GameObject:
   - component: {fileID: 921881305533546908}
   - component: {fileID: 432850818825763899}
   - component: {fileID: 1528823017135956276}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: UIButtonSquareIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2519,7 +2519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 660686576231478893}
   - component: {fileID: 7539010801907529091}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoButtonContainer (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2563,7 +2563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5172469583342813630}
   - component: {fileID: 5923804437414953625}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoButtonContainer (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2609,7 +2609,7 @@ GameObject:
   - component: {fileID: 8840464597470377642}
   - component: {fileID: 4634093483424996221}
   - component: {fileID: 8703898109176597154}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2704,7 +2704,7 @@ GameObject:
   - component: {fileID: 7145484244141603241}
   - component: {fileID: 1602643136251268821}
   - component: {fileID: 6349510058245795802}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2891,7 +2891,7 @@ GameObject:
   - component: {fileID: 1279602620929197352}
   - component: {fileID: 7933102781981427619}
   - component: {fileID: 7464506223634072707}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2985,7 +2985,7 @@ GameObject:
   - component: {fileID: 5539505247584863042}
   - component: {fileID: 5448866034379912257}
   - component: {fileID: 4178242281572721177}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3067,7 +3067,7 @@ GameObject:
   - component: {fileID: 1482806154292586086}
   - component: {fileID: 7006188708503280757}
   - component: {fileID: 345361619578835513}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3163,7 +3163,7 @@ GameObject:
   - component: {fileID: 5090857901322472700}
   - component: {fileID: 1048101421925258140}
   - component: {fileID: 6548117362452416327}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3257,7 +3257,7 @@ GameObject:
   - component: {fileID: 3036960597206731176}
   - component: {fileID: 7621630647905550810}
   - component: {fileID: 8114454772250677997}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3338,7 +3338,7 @@ GameObject:
   - component: {fileID: 1733134737310715202}
   - component: {fileID: 4604357585904587951}
   - component: {fileID: 2661276711097624915}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: UIButtonSquareIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3425,7 +3425,7 @@ GameObject:
   - component: {fileID: 8544084732223974569}
   - component: {fileID: 6310134322193160266}
   - component: {fileID: 2620492025102111386}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoButton2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3959,7 +3959,7 @@ GameObject:
   - component: {fileID: 4871940359421454599}
   - component: {fileID: 1211562352125069835}
   - component: {fileID: 7116411291403006803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4051,7 +4051,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6360259859489764896}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4088,7 +4088,7 @@ GameObject:
   - component: {fileID: 3704424941189253376}
   - component: {fileID: 5412922411810623346}
   - component: {fileID: 5022197087212554971}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4265,7 +4265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4096811820861376267}
   - component: {fileID: 4315037562695326347}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4349,7 +4349,7 @@ GameObject:
   - component: {fileID: 4356095940076189427}
   - component: {fileID: 3311197095128852191}
   - component: {fileID: 5734392816221709389}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4440,7 +4440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5880179161092027806}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4470,7 +4470,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4283729442547528922}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4501,7 +4501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4100166975404543463}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4534,7 +4534,7 @@ GameObject:
   - component: {fileID: 4777204301391700064}
   - component: {fileID: 6416997098269855931}
   - component: {fileID: 1560585588619745830}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4627,7 +4627,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6117001299961725346}
   - component: {fileID: 3912461301464401280}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4710,7 +4710,7 @@ GameObject:
   - component: {fileID: 5902856756965137474}
   - component: {fileID: 5617541681732962876}
   - component: {fileID: 720802589197277932}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: UIButtonSquareIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4793,7 +4793,7 @@ GameObject:
   - component: {fileID: 6822996338244225829}
   - component: {fileID: 2825765022114136854}
   - component: {fileID: 3927659109803815792}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4979,7 +4979,7 @@ GameObject:
   - component: {fileID: 2039628698011955227}
   - component: {fileID: 5958458480317571253}
   - component: {fileID: 939013468017527129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CityMockup
   m_TagString: Building
   m_Icon: {fileID: 0}
@@ -5140,7 +5140,7 @@ GameObject:
   - component: {fileID: 2357554979725370119}
   - component: {fileID: 1785432314140398877}
   - component: {fileID: 8918024099760900111}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5235,7 +5235,7 @@ GameObject:
   - component: {fileID: 177250300231341116}
   - component: {fileID: 9124668003801273844}
   - component: {fileID: 6658923548517416746}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5330,7 +5330,7 @@ GameObject:
   - component: {fileID: 8177633307649784296}
   - component: {fileID: 8905869385959464970}
   - component: {fileID: 8762134049887890908}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5423,7 +5423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1826905332227737962}
   - component: {fileID: 4751798104547651502}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5505,7 +5505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2041106507125886468}
   - component: {fileID: 1037854737740288104}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoButtonContainer (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5548,7 +5548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4464687816696360246}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5580,7 +5580,7 @@ GameObject:
   - component: {fileID: 2529587444169915781}
   - component: {fileID: 3954225045065276368}
   - component: {fileID: 1246469004389689933}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5659,7 +5659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6539844923324141293}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5692,7 +5692,7 @@ GameObject:
   - component: {fileID: 1454704956000496045}
   - component: {fileID: 1186260712814264554}
   - component: {fileID: 6583546796491201449}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5774,7 +5774,7 @@ GameObject:
   - component: {fileID: 7852879970521457058}
   - component: {fileID: 8415629908184178472}
   - component: {fileID: 8282948221742511432}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5870,7 +5870,7 @@ GameObject:
   - component: {fileID: 4093666556728889227}
   - component: {fileID: 716474027863951535}
   - component: {fileID: 6059027530576930033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6057,7 +6057,7 @@ GameObject:
   - component: {fileID: 1518809429621596671}
   - component: {fileID: 5125302417707166799}
   - component: {fileID: 6904617733549143843}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6152,7 +6152,7 @@ GameObject:
   - component: {fileID: 3470999534966740543}
   - component: {fileID: 6138022232582577207}
   - component: {fileID: 5149092145474841145}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6246,7 +6246,7 @@ GameObject:
   - component: {fileID: 5496151099002179051}
   - component: {fileID: 7646818622663518833}
   - component: {fileID: 3425299926074136237}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6325,7 +6325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1760817039952059185}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: SeeItSayItLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6360,7 +6360,7 @@ GameObject:
   - component: {fileID: 9089804030411529634}
   - component: {fileID: 5677086663455944431}
   - component: {fileID: 4310633241070588429}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6454,7 +6454,7 @@ GameObject:
   - component: {fileID: 8888222300173809227}
   - component: {fileID: 2731684354519777659}
   - component: {fileID: 3797668284879723804}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6588,7 +6588,7 @@ GameObject:
   - component: {fileID: 8018942381593903434}
   - component: {fileID: 1239195853712391037}
   - component: {fileID: 2074849316812159543}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6659,7 +6659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5937419397555400425}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6696,7 +6696,7 @@ GameObject:
   - component: {fileID: 2405750631526658103}
   - component: {fileID: 7281307023081841131}
   - component: {fileID: 7279509858861127674}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6791,7 +6791,7 @@ GameObject:
   - component: {fileID: 8799910375950292544}
   - component: {fileID: 5072104653858820402}
   - component: {fileID: 4232073145742963099}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6884,7 +6884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 378075842649652558}
   - component: {fileID: 7248040462349603096}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoButtonContainer (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6930,7 +6930,7 @@ GameObject:
   - component: {fileID: 3603220306305863634}
   - component: {fileID: 5869898207172821947}
   - component: {fileID: 8730712998291194526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7109,7 +7109,7 @@ GameObject:
   - component: {fileID: 3783534693144554456}
   - component: {fileID: 6161828664227644984}
   - component: {fileID: 4658417884145959941}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7204,7 +7204,7 @@ GameObject:
   - component: {fileID: 5413013701254393369}
   - component: {fileID: 2458520631151370291}
   - component: {fileID: 4649852606744789408}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7278,7 +7278,7 @@ GameObject:
   - component: {fileID: 5753186759674798304}
   - component: {fileID: 8136407273061719143}
   - component: {fileID: 2232463513956391971}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7370,7 +7370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3175414791945867069}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7405,7 +7405,7 @@ GameObject:
   - component: {fileID: 5201710162144553402}
   - component: {fileID: 5781843420732525222}
   - component: {fileID: 7977782601784300759}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7589,7 +7589,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6297608911679119927}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: SeeItSayItLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7624,7 +7624,7 @@ GameObject:
   - component: {fileID: 1469960685918805512}
   - component: {fileID: 1595521431619142522}
   - component: {fileID: 5018641190767839152}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7716,7 +7716,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 893921160448218324}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7746,7 +7746,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4272387734224848058}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7777,7 +7777,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4145108467505647882}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InteractionTouchingCue
   m_TagString: UI_Cue
   m_Icon: {fileID: 0}
@@ -7811,7 +7811,7 @@ GameObject:
   - component: {fileID: 2536783364504165037}
   - component: {fileID: 8519822456654911767}
   - component: {fileID: 7404787049448069521}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7902,7 +7902,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2600632195258324849}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: SeeItSayItLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7935,7 +7935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6847059875111050899}
   - component: {fileID: 5605771278873688289}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoButtonContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7981,7 +7981,7 @@ GameObject:
   - component: {fileID: 4058987480654740470}
   - component: {fileID: 2345355534936411450}
   - component: {fileID: 5796747822342643677}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8074,7 +8074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5363168751241615224}
   - component: {fileID: 6858984929398250712}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8155,7 +8155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8266698692562381023}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InteractionTouchingCue
   m_TagString: UI_Cue
   m_Icon: {fileID: 0}
@@ -8186,7 +8186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 315988740344715918}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8225,7 +8225,7 @@ GameObject:
   - component: {fileID: 3930828841075496610}
   - component: {fileID: 3233526892795655423}
   - component: {fileID: 7418161903040880584}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoPanel
   m_TagString: DialogPanel
   m_Icon: {fileID: 0}
@@ -8350,7 +8350,7 @@ GameObject:
   - component: {fileID: 7727760801155028601}
   - component: {fileID: 342498237777101322}
   - component: {fileID: 4137499478389337040}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8537,7 +8537,7 @@ GameObject:
   - component: {fileID: 6167125154033034186}
   - component: {fileID: 7317724287427399302}
   - component: {fileID: 654508026355280078}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8629,7 +8629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9100323305669304499}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Buildings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8662,7 +8662,7 @@ GameObject:
   - component: {fileID: 5638505202770276741}
   - component: {fileID: 3688871499223507703}
   - component: {fileID: 3764270288573422777}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8757,7 +8757,7 @@ GameObject:
   - component: {fileID: 8492672226751806084}
   - component: {fileID: 9014102728540248460}
   - component: {fileID: 3066926266315484991}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8852,7 +8852,7 @@ GameObject:
   - component: {fileID: 7922699889106700619}
   - component: {fileID: 4597756200919540299}
   - component: {fileID: 7638786291970148019}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8944,7 +8944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4769074401604576190}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InteractionTouchingCue
   m_TagString: UI_Cue
   m_Icon: {fileID: 0}
@@ -8977,7 +8977,7 @@ GameObject:
   - component: {fileID: 775128603402054100}
   - component: {fileID: 6257561546611971342}
   - component: {fileID: 2147348942945265816}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9048,7 +9048,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327243760513660302}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9081,7 +9081,7 @@ GameObject:
   - component: {fileID: 3331693542121416121}
   - component: {fileID: 1325992731963164227}
   - component: {fileID: 716120464627230382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9176,7 +9176,7 @@ GameObject:
   - component: {fileID: 5494373221931402251}
   - component: {fileID: 6722883333008582065}
   - component: {fileID: 1272535075502288458}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9258,7 +9258,7 @@ GameObject:
   - component: {fileID: 8144903663499810707}
   - component: {fileID: 8243260618577297322}
   - component: {fileID: 1507690382043904747}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9353,7 +9353,7 @@ GameObject:
   - component: {fileID: 8466322127870130944}
   - component: {fileID: 8115364328842264012}
   - component: {fileID: 3252800942386203110}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9534,7 +9534,7 @@ GameObject:
   - component: {fileID: 3820870824992991854}
   - component: {fileID: 4515223403028231590}
   - component: {fileID: 3254349216730170767}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoPanel
   m_TagString: DialogPanel
   m_Icon: {fileID: 0}
@@ -9658,7 +9658,7 @@ GameObject:
   - component: {fileID: 2926595698598053938}
   - component: {fileID: 7105799645140290137}
   - component: {fileID: 5704468356064610416}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9753,7 +9753,7 @@ GameObject:
   - component: {fileID: 5890968071783977756}
   - component: {fileID: 4013321707186045523}
   - component: {fileID: 1209216217113447497}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9853,7 +9853,7 @@ GameObject:
   - component: {fileID: 3904454540759921420}
   - component: {fileID: 4598419224117198819}
   - component: {fileID: 8138728272002621631}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoButton2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10387,7 +10387,7 @@ GameObject:
   - component: {fileID: 2550434987827239521}
   - component: {fileID: 1958132101566626732}
   - component: {fileID: 1545327023759979232}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10563,7 +10563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7373567550783986286}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10600,7 +10600,7 @@ GameObject:
   - component: {fileID: 2977240157061331022}
   - component: {fileID: 320796361438952150}
   - component: {fileID: 8321834700693383160}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10696,7 +10696,7 @@ GameObject:
   - component: {fileID: 2539845904294119170}
   - component: {fileID: 8742190559930582606}
   - component: {fileID: 6542043880521795827}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10883,7 +10883,7 @@ GameObject:
   - component: {fileID: 8019946158688715600}
   - component: {fileID: 5796927887995917717}
   - component: {fileID: 7736695755118932276}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10975,7 +10975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3815989401247743893}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11006,7 +11006,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3386829712179792183}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11040,7 +11040,7 @@ GameObject:
   - component: {fileID: 6496424972799218234}
   - component: {fileID: 7485510623371491206}
   - component: {fileID: 7006062076913187593}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11137,7 +11137,7 @@ GameObject:
   - component: {fileID: 6476000668740887196}
   - component: {fileID: 694970435218893202}
   - component: {fileID: 7125025346914322639}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoPanel
   m_TagString: DialogPanel
   m_Icon: {fileID: 0}
@@ -11261,7 +11261,7 @@ GameObject:
   - component: {fileID: 6417794528268507150}
   - component: {fileID: 7437486251639558926}
   - component: {fileID: 9164281175572321647}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11353,7 +11353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 126076410159909887}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11387,7 +11387,7 @@ GameObject:
   - component: {fileID: 1576724045018615815}
   - component: {fileID: 7329142630436400948}
   - component: {fileID: 836908129513440286}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11482,7 +11482,7 @@ GameObject:
   - component: {fileID: 5598345005256663849}
   - component: {fileID: 5561355042270478758}
   - component: {fileID: 6026550303080010852}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11576,7 +11576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5364048811429705322}
   - component: {fileID: 146722482859040582}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11659,7 +11659,7 @@ GameObject:
   - component: {fileID: 4145962824800310941}
   - component: {fileID: 8173512534280864039}
   - component: {fileID: 3972731349636420634}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11740,7 +11740,7 @@ GameObject:
   - component: {fileID: 915120445836249519}
   - component: {fileID: 6242233361152084303}
   - component: {fileID: 5007792598723129575}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11822,7 +11822,7 @@ GameObject:
   - component: {fileID: 4349992263864320245}
   - component: {fileID: 4317898303438675161}
   - component: {fileID: 8547308942072893756}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12000,7 +12000,7 @@ GameObject:
   - component: {fileID: 5647115810249573994}
   - component: {fileID: 7612004699955553170}
   - component: {fileID: 8340488944271249098}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: UIButtonSquareIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12083,7 +12083,7 @@ GameObject:
   - component: {fileID: 6625248461788817765}
   - component: {fileID: 6378258497232734579}
   - component: {fileID: 1939072237444992724}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12267,7 +12267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5682449023304535375}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12301,7 +12301,7 @@ GameObject:
   - component: {fileID: 4045335042725629900}
   - component: {fileID: 4612716796792022371}
   - component: {fileID: 7860728863632146049}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12398,7 +12398,7 @@ GameObject:
   - component: {fileID: 5678047960941017736}
   - component: {fileID: 6775388088597438642}
   - component: {fileID: 105376652594209885}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12584,7 +12584,7 @@ GameObject:
   - component: {fileID: 2057685835776717244}
   - component: {fileID: 7796459520286177319}
   - component: {fileID: 4236893598900036019}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12719,7 +12719,7 @@ GameObject:
   - component: {fileID: 361495835576072780}
   - component: {fileID: 84736121441872282}
   - component: {fileID: 1574154826064397460}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12811,7 +12811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6192014998583898602}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CityHall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12845,7 +12845,7 @@ GameObject:
   - component: {fileID: 2608037445266729769}
   - component: {fileID: 8950343294860143189}
   - component: {fileID: 7712562118243318537}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: UIButtonSquareIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12932,7 +12932,7 @@ GameObject:
   - component: {fileID: 3991781088569525652}
   - component: {fileID: 5043255034503131839}
   - component: {fileID: 5873705121270291377}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoButton2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13463,7 +13463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2067635336411412119}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13497,7 +13497,7 @@ GameObject:
   - component: {fileID: 959964897402235698}
   - component: {fileID: 5402139983311748091}
   - component: {fileID: 8223618111375627479}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13592,7 +13592,7 @@ GameObject:
   - component: {fileID: 5865394065938839429}
   - component: {fileID: 1599900904172216028}
   - component: {fileID: 3171588739848748797}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13686,7 +13686,7 @@ GameObject:
   - component: {fileID: 3228027425400875292}
   - component: {fileID: 5051368184804686984}
   - component: {fileID: 176236567022629730}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13780,7 +13780,7 @@ GameObject:
   - component: {fileID: 6994978956049291692}
   - component: {fileID: 2702763513537097962}
   - component: {fileID: 8677022399974831294}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13859,7 +13859,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1065754855983140295}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InteractionTouchingCue
   m_TagString: UI_Cue
   m_Icon: {fileID: 0}
@@ -13893,7 +13893,7 @@ GameObject:
   - component: {fileID: 9201889915809775459}
   - component: {fileID: 6605078980260200062}
   - component: {fileID: 4174661271717985335}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13988,7 +13988,7 @@ GameObject:
   - component: {fileID: 3582961150770171758}
   - component: {fileID: 6643521309605243181}
   - component: {fileID: 6656929205909899274}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14080,7 +14080,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4904763235285040366}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: SeeItSayItLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14115,7 +14115,7 @@ GameObject:
   - component: {fileID: 6160117680011724905}
   - component: {fileID: 8059395189773405253}
   - component: {fileID: 4809263854384617280}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14210,7 +14210,7 @@ GameObject:
   - component: {fileID: 5004242639364088354}
   - component: {fileID: 4768037781789564640}
   - component: {fileID: 7185193419393804542}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14304,7 +14304,7 @@ GameObject:
   - component: {fileID: 6693281637497750726}
   - component: {fileID: 6923062266616485341}
   - component: {fileID: 5886852499660355372}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14441,7 +14441,7 @@ GameObject:
   - component: {fileID: 2715223569871276224}
   - component: {fileID: 3611536283173582533}
   - component: {fileID: 3877016779771757641}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoPanel
   m_TagString: DialogPanel
   m_Icon: {fileID: 0}
@@ -14565,7 +14565,7 @@ GameObject:
   - component: {fileID: 1013799422934847682}
   - component: {fileID: 3778526458141607287}
   - component: {fileID: 5515196095746929139}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14660,7 +14660,7 @@ GameObject:
   - component: {fileID: 1487164058519090306}
   - component: {fileID: 2963976579953790815}
   - component: {fileID: 7866619817727006216}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14752,7 +14752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3870696408706413360}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TvTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14784,7 +14784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7966794121135284241}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14815,7 +14815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2501374149149342004}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14846,7 +14846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4755361009754434028}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InteractionTouchingCue
   m_TagString: UI_Cue
   m_Icon: {fileID: 0}
@@ -14880,7 +14880,7 @@ GameObject:
   - component: {fileID: 8796154006354138768}
   - component: {fileID: 5169124829877713354}
   - component: {fileID: 3405037613200008773}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pilar (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14976,7 +14976,7 @@ GameObject:
   - component: {fileID: 8335694014453458682}
   - component: {fileID: 7689001509615593414}
   - component: {fileID: 835260549789870197}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15168,7 +15168,7 @@ GameObject:
   - component: {fileID: 6187176644943722538}
   - component: {fileID: 2779284255696639486}
   - component: {fileID: 1865593118309853168}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoButton2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15699,7 +15699,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7671966307365274569}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15738,7 +15738,7 @@ GameObject:
   - component: {fileID: 7520280671291247125}
   - component: {fileID: 1072421546183034895}
   - component: {fileID: 6832658668127788726}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: InfoPanel
   m_TagString: DialogPanel
   m_Icon: {fileID: 0}
@@ -15862,7 +15862,7 @@ GameObject:
   - component: {fileID: 2487130041465221936}
   - component: {fileID: 4690486708288851302}
   - component: {fileID: 6180540500418931821}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15953,9 +15953,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2039628698011955227}
     m_Modifications:
+    - target: {fileID: 359934276580296993, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 620172651806006302, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346975291096600482, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1378378651530247229, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
       propertyPath: m_RootOrder
@@ -16001,21 +16009,141 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1388614472294797341, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889344318760592120, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2548641474602843953, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597531349469197261, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122555348941616823, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359125281170600166, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582112030367506233, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582648444322388292, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749381181728332387, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3915319059118423090, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363890911411289754, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4621299037093649918, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630392009094411698, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5112504711835130979, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5427714994607760682, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5546853062142510561, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5599855667292668490, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5655985465956984709, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6339812745731574029, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6464710501103995412, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637227508544888757, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881936509078261863, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7020609665334886224, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
       propertyPath: m_Name
       value: CheckpointCharlie
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020609665334886224, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7095905039647140908, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162935214200853320, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752439459292377279, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8121244054255515687, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174958631114245648, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263885060673730620, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612070931459056568, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8940979988286692273, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975675032925463115, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065644988901048660, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40cf655b84c751a4eaa477190f87321e, type: 3}
